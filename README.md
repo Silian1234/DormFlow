@@ -116,7 +116,4 @@ bash apps/ios/build_ios.sh
 ## Материалы по заданию
 
 - Backend: [`backend/README.md`](./backend/README.md)
-- API: [`docs/api.md`](./docs/api.md)
-- Паспорт проекта: [`docs/project-passport.md`](./docs/project-passport.md)
-- Интеллект-карта: [`docs/mindmap.md`](./docs/mindmap.md)
 - Ранний wireframe-прототип: [`prototype/index.html`](./prototype/index.html)
