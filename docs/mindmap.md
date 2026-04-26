@@ -4,7 +4,7 @@
 
 Ссылка для открытия карты в app.diagrams.net: [dormflow-mindmap-app-diagrams-link.txt](./dormflow-mindmap-app-diagrams-link.txt).
 
-Карта сделана вручную в draw.io XML. Mermaid не используется, чтобы diagrams.net не ломал раскладку.
+Карта сделана вручную в draw.io XML и открывается через опубликованный raw-файл GitHub. Mermaid не используется, чтобы diagrams.net не ломал раскладку.
 
 ## Структура
 

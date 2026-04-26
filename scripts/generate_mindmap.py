@@ -1,11 +1,8 @@
 from __future__ import annotations
 
-import base64
 import html
-import json
 import re
 import urllib.parse
-import zlib
 from datetime import datetime, timezone
 from pathlib import Path
 from xml.etree import ElementTree
@@ -16,6 +13,10 @@ DOCS = ROOT / "docs"
 DRAWIO_PATH = DOCS / "dormflow-mindmap.drawio"
 LINK_PATH = DOCS / "dormflow-mindmap-app-diagrams-link.txt"
 MARKDOWN_PATH = DOCS / "mindmap.md"
+REMOTE_DRAWIO_URL = (
+    "https://raw.githubusercontent.com/Silian1234/DormFlow/"
+    "mindmap-layout-fix-20260426/docs/dormflow-mindmap.drawio"
+)
 
 
 def escape_label(value: str) -> str:
@@ -299,30 +300,10 @@ def build_xml() -> str:
     )
 
 
-def encode_uri_component(value: str) -> str:
-    return urllib.parse.quote(value, safe="-_.!~*'()")
-
-
-def compress_drawio_xml(xml: str) -> str:
-    encoded_xml = encode_uri_component(xml).encode("utf-8")
-    compressor = zlib.compressobj(level=9, wbits=-15)
-    compressed = compressor.compress(encoded_xml) + compressor.flush()
-    return base64.b64encode(compressed).decode("ascii")
-
-
-def decompress_drawio_xml(data: str) -> str:
-    encoded_xml = zlib.decompress(base64.b64decode(data), wbits=-15).decode("utf-8")
-    return urllib.parse.unquote(encoded_xml)
-
-
 def build_link(xml: str) -> str:
-    payload = {
-        "type": "xml",
-        "compressed": True,
-        "data": compress_drawio_xml(xml),
-    }
-    encoded_payload = urllib.parse.quote(json.dumps(payload, separators=(",", ":")), safe="")
-    return f"https://app.diagrams.net/?pv=0&grid=0#create={encoded_payload}"
+    del xml
+    encoded_remote_url = urllib.parse.quote(REMOTE_DRAWIO_URL, safe="")
+    return f"https://app.diagrams.net/?pv=0&grid=0#U{encoded_remote_url}"
 
 
 def validate(xml: str, link: str) -> None:
@@ -331,14 +312,9 @@ def validate(xml: str, link: str) -> None:
         raise RuntimeError("Unexpected question mark in drawio XML")
     if re.search(r"[\u0400-\u04FF]", xml):
         raise RuntimeError("Drawio XML must stay ASCII with numeric entities")
-    fragment = link.split("#create=", 1)[1]
-    payload = json.loads(urllib.parse.unquote(fragment))
-    if payload["type"] != "xml" or payload.get("compressed") is not True:
-        raise RuntimeError("Link must open the fixed drawio XML layout")
-    restored = decompress_drawio_xml(payload["data"])
-    if restored != xml:
-        raise RuntimeError("Compressed link does not restore the drawio XML")
-    if "DormFlow" not in restored or "mermaid" in link.lower():
+    if not link.endswith(urllib.parse.quote(REMOTE_DRAWIO_URL, safe="")):
+        raise RuntimeError("Link must point to the published drawio XML")
+    if "DormFlow" not in xml or "mermaid" in link.lower():
         raise RuntimeError("Invalid app.diagrams.net link payload")
 
 
@@ -349,7 +325,7 @@ def build_markdown() -> str:
 
 Ссылка для открытия карты в app.diagrams.net: [dormflow-mindmap-app-diagrams-link.txt](./dormflow-mindmap-app-diagrams-link.txt).
 
-Карта сделана вручную в draw.io XML. Mermaid не используется, чтобы diagrams.net не ломал раскладку.
+Карта сделана вручную в draw.io XML и открывается через опубликованный raw-файл GitHub. Mermaid не используется, чтобы diagrams.net не ломал раскладку.
 
 ## Структура
 
