@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Virtual envs
+.venv/
+.venv310/
+.venv-ios/
+venv/
+
+# Build artifacts
+bin/
+dist/
+build/
+*.apk
+*.aab
+*.ipa
+*.sqlite3
+*.db
+
+# Buildozer
+.buildozer/
+
+# Runtime data
+backend/data/
+
+# macOS / Xcode
+*.xcworkspace
+*.xcodeproj/xcuserdata/
+apps/ios/.build/
+apps/ios/xcode/**/build/
+apps/ios/xcode/**/xcuserdata/
+DerivedData/
