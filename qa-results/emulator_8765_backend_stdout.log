@@ -1,0 +1,5 @@
+INFO:     127.0.0.1:63889 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57730 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60668 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60669 - "GET /state HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51021 - "GET /state HTTP/1.1" 200 OK

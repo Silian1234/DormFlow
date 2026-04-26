@@ -1,0 +1,1201 @@
+﻿--------- beginning of main
+04-26 15:22:47.418 10078 10078 E rmflow.dormflow: Invalid resource ID 0x00000000.
+04-26 15:22:47.419 10078 10078 V SDL     : couldn't find lottie layout or animation, trying static splash
+04-26 15:22:47.420 10078 10078 V SDL     : getting identifier
+04-26 15:22:47.422 10078 10078 V SDL     : kind is drawable and name presplash
+04-26 15:22:47.422 10078 10078 V SDL     : result is 2130771969
+04-26 15:22:47.454 10078 10078 V SDL     : asked to get string presplash_color
+04-26 15:22:47.454 10078 10078 V SDL     : getting identifier
+04-26 15:22:47.454 10078 10078 V SDL     : kind is string and name presplash_color
+04-26 15:22:47.454 10078 10078 V SDL     : result is 2131034113
+04-26 15:22:47.480 10078 10078 V SDL     : onStart()
+04-26 15:22:47.481 10078 10106 V PythonActivity: Ready to unpack
+04-26 15:22:47.484 10078 10078 V PythonActivity: onResume()
+04-26 15:22:47.484 10078 10078 V SDL     : onResume()
+04-26 15:22:47.489 10078 10106 V pythonutil: Unpacking private app
+04-26 15:22:47.489 10078 10106 V pythonutil: Data version is deaaf51347e321e4bdc186904f83a2b833f69c23
+04-26 15:22:47.490 10078 10106 V pythonutil: Extracting private assets.
+04-26 15:22:47.505 10078 10106 V python  : extracting assets/
+04-26 15:22:47.505 10078 10106 V python  : extracting assets/android/
+04-26 15:22:47.509 10078 10106 V python  : extracting assets/android/icon.png
+04-26 15:22:47.510 10078 10078 W HWUI    : Unknown dataspace 0
+04-26 15:22:47.512 10078 10106 V python  : extracting assets/android/presplash.png
+04-26 15:22:47.530 10078 10106 V python  : extracting dormflow/
+04-26 15:22:47.534 10078 10106 V python  : extracting dormflow/__init__.pyc
+04-26 15:22:47.540 10078 10106 V python  : extracting dormflow/api_client.pyc
+04-26 15:22:47.542 10078 10103 I EGL_emulation: Opening libGLESv1_CM_emulation.so
+04-26 15:22:47.545 10078 10103 I EGL_emulation: Opening libGLESv2_emulation.so
+04-26 15:22:47.570 10078 10106 V python  : extracting dormflow/api_service.pyc
+04-26 15:22:47.571 10078 10106 V python  : extracting dormflow/app.pyc
+04-26 15:22:47.571 10078 10103 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-26 15:22:47.572 10078 10106 V python  : extracting dormflow/models.pyc
+04-26 15:22:47.572 10078 10103 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+04-26 15:22:47.572 10078 10106 V python  : extracting dormflow/repository.pyc
+04-26 15:22:47.572 10078 10106 V python  : extracting dormflow/seed.pyc
+04-26 15:22:47.572 10078 10106 V python  : extracting dormflow/services.pyc
+04-26 15:22:47.573 10078 10106 V python  : extracting dormflow/session.pyc
+04-26 15:22:47.573 10078 10106 V python  : extracting dormflow/ui.kv
+04-26 15:22:47.573 10078 10106 V python  : extracting main.pyc
+04-26 15:22:47.573 10078 10106 V python  : extracting requirements.txt
+04-26 15:22:47.574 10078 10106 V python  : extracting sitecustomize.pyc
+04-26 15:22:47.574 10078 10106 V python  : extracting p4a_env_vars.txt
+04-26 15:22:47.574 10078 10106 V pythonutil: Unpacking /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libpybundle app
+04-26 15:22:47.574 10078 10106 V pythonutil: Data version is deaaf51347e321e4bdc186904f83a2b833f69c23
+04-26 15:22:47.574 10078 10106 V pythonutil: Extracting /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libpybundle assets.
+04-26 15:22:47.575 10078 10106 V python  : extracting _python_bundle/
+04-26 15:22:47.575 10078 10106 V python  : extracting _python_bundle/modules/
+04-26 15:22:47.575 10078 10106 V python  : extracting _python_bundle/modules/_asyncio.cpython-311.so
+04-26 15:22:47.576 10078 10106 V python  : extracting _python_bundle/modules/_bisect.cpython-311.so
+04-26 15:22:47.577 10078 10106 V python  : extracting _python_bundle/modules/_blake2.cpython-311.so
+04-26 15:22:47.577 10078 10106 V python  : extracting _python_bundle/modules/_codecs_cn.cpython-311.so
+04-26 15:22:47.579 10078 10106 V python  : extracting _python_bundle/modules/_codecs_hk.cpython-311.so
+04-26 15:22:47.581 10078 10106 V python  : extracting _python_bundle/modules/_codecs_iso2022.cpython-311.so
+04-26 15:22:47.581 10078 10106 V python  : extracting _python_bundle/modules/_codecs_jp.cpython-311.so
+04-26 15:22:47.585 10078 10106 V python  : extracting _python_bundle/modules/_codecs_kr.cpython-311.so
+04-26 15:22:47.587 10078 10106 V python  : extracting _python_bundle/modules/_codecs_tw.cpython-311.so
+04-26 15:22:47.589 10078 10106 V python  : extracting _python_bundle/modules/_contextvars.cpython-311.so
+04-26 15:22:47.589 10078 10106 V python  : extracting _python_bundle/modules/_csv.cpython-311.so
+04-26 15:22:47.590 10078 10106 V python  : extracting _python_bundle/modules/_ctypes.cpython-311.so
+04-26 15:22:47.591 10078 10106 V python  : extracting _python_bundle/modules/_ctypes_test.cpython-311.so
+04-26 15:22:47.591 10078 10106 V python  : extracting _python_bundle/modules/_datetime.cpython-311.so
+04-26 15:22:47.593 10078 10106 V python  : extracting _python_bundle/modules/_decimal.cpython-311.so
+04-26 15:22:47.597 10078 10106 V python  : extracting _python_bundle/modules/_elementtree.cpython-311.so
+04-26 15:22:47.617 10078 10106 V python  : extracting _python_bundle/modules/_hashlib.cpython-311.so
+04-26 15:22:47.624 10078 10106 V python  : extracting _python_bundle/modules/_heapq.cpython-311.so
+04-26 15:22:47.625 10078 10106 V python  : extracting _python_bundle/modules/_json.cpython-311.so
+04-26 15:22:47.625 10078 10106 V python  : extracting _python_bundle/modules/_lsprof.cpython-311.so
+04-26 15:22:47.626 10078 10106 V python  : extracting _python_bundle/modules/_md5.cpython-311.so
+04-26 15:22:47.632 10078 10106 V python  : extracting _python_bundle/modules/_multibytecodec.cpython-311.so
+04-26 15:22:47.633 10078 10106 V python  : extracting _python_bundle/modules/_multiprocessing.cpython-311.so
+04-26 15:22:47.633 10078 10106 V python  : extracting _python_bundle/modules/_opcode.cpython-311.so
+04-26 15:22:47.634 10078 10106 V python  : extracting _python_bundle/modules/_pickle.cpython-311.so
+04-26 15:22:47.636 10078 10106 V python  : extracting _python_bundle/modules/_posixsubprocess.cpython-311.so
+04-26 15:22:47.637 10078 10106 V python  : extracting _python_bundle/modules/_queue.cpython-311.so
+04-26 15:22:47.637 10078 10106 V python  : extracting _python_bundle/modules/_random.cpython-311.so
+04-26 15:22:47.638 10078 10106 V python  : extracting _python_bundle/modules/_sha1.cpython-311.so
+04-26 15:22:47.638 10078 10106 V python  : extracting _python_bundle/modules/_sha256.cpython-311.so
+04-26 15:22:47.645 10078 10106 V python  : extracting _python_bundle/modules/_sha3.cpython-311.so
+04-26 15:22:47.646 10078 10106 V python  : extracting _python_bundle/modules/_sha512.cpython-311.so
+04-26 15:22:47.652 10078 10106 V python  : extracting _python_bundle/modules/_socket.cpython-311.so
+04-26 15:22:47.653 10078 10106 V python  : extracting _python_bundle/modules/_sqlite3.cpython-311.so
+04-26 15:22:47.656 10078 10106 V python  : extracting _python_bundle/modules/_ssl.cpython-311.so
+04-26 15:22:47.658 10078 10106 V python  : extracting _python_bundle/modules/_statistics.cpython-311.so
+04-26 15:22:47.659 10078 10106 V python  : extracting _python_bundle/modules/_struct.cpython-311.so
+04-26 15:22:47.662 10078 10106 V python  : extracting _python_bundle/modules/_sysconfigdata__linux_aarch64-linux-android.pyc
+04-26 15:22:47.663 10078 10106 V python  : extracting _python_bundle/modules/_testbuffer.cpython-311.so
+04-26 15:22:47.664 10078 10106 V python  : extracting _python_bundle/modules/_testcapi.cpython-311.so
+04-26 15:22:47.665 10078 10103 I Gralloc4: mapper 4.x is not supported
+04-26 15:22:47.666 10078 10106 V python  : extracting _python_bundle/modules/_testclinic.cpython-311.so
+04-26 15:22:47.667 10078 10106 V python  : extracting _python_bundle/modules/_testimportmultiple.cpython-311.so
+04-26 15:22:47.668 10078 10106 V python  : extracting _python_bundle/modules/_testinternalcapi.cpython-311.so
+04-26 15:22:47.669 10078 10106 V python  : extracting _python_bundle/modules/_testmultiphase.cpython-311.so
+04-26 15:22:47.670 10078 10106 V python  : extracting _python_bundle/modules/_typing.cpython-311.so
+04-26 15:22:47.670 10078 10106 V python  : extracting _python_bundle/modules/_xxsubinterpreters.cpython-311.so
+04-26 15:22:47.672 10078 10106 V python  : extracting _python_bundle/modules/_xxtestfuzz.cpython-311.so
+04-26 15:22:47.673 10078 10106 V python  : extracting _python_bundle/modules/_zoneinfo.cpython-311.so
+04-26 15:22:47.674 10078 10106 V python  : extracting _python_bundle/modules/array.cpython-311.so
+04-26 15:22:47.678 10078 10106 V python  : extracting _python_bundle/modules/audioop.cpython-311.so
+04-26 15:22:47.679 10078 10106 V python  : extracting _python_bundle/modules/binascii.cpython-311.so
+04-26 15:22:47.680 10078 10106 V python  : extracting _python_bundle/modules/cmath.cpython-311.so
+04-26 15:22:47.680 10078 10106 V python  : extracting _python_bundle/modules/fcntl.cpython-311.so
+04-26 15:22:47.681 10078 10106 V python  : extracting _python_bundle/modules/math.cpython-311.so
+04-26 15:22:47.681 10078 10106 V python  : extracting _python_bundle/modules/mmap.cpython-311.so
+04-26 15:22:47.682 10078 10106 V python  : extracting _python_bundle/modules/ossaudiodev.cpython-311.so
+04-26 15:22:47.682 10078 10106 V python  : extracting _python_bundle/modules/pyexpat.cpython-311.so
+04-26 15:22:47.686 10078 10106 V python  : extracting _python_bundle/modules/resource.cpython-311.so
+04-26 15:22:47.686 10078 10106 V python  : extracting _python_bundle/modules/select.cpython-311.so
+04-26 15:22:47.686 10078 10106 V python  : extracting _python_bundle/modules/syslog.cpython-311.so
+04-26 15:22:47.687 10078 10106 V python  : extracting _python_bundle/modules/termios.cpython-311.so
+04-26 15:22:47.687 10078 10106 V python  : extracting _python_bundle/modules/unicodedata.cpython-311.so
+04-26 15:22:47.757 10078 10106 V python  : extracting _python_bundle/modules/xxlimited.cpython-311.so
+04-26 15:22:47.758 10078 10106 V python  : extracting _python_bundle/modules/xxlimited_35.cpython-311.so
+04-26 15:22:47.758 10078 10106 V python  : extracting _python_bundle/modules/zlib.cpython-311.so
+04-26 15:22:47.758 10078 10078 V SDL     : onWindowFocusChanged(): true
+04-26 15:22:47.760 10078 10106 V python  : extracting _python_bundle/site-packages/
+04-26 15:22:47.760 10078 10106 V python  : extracting _python_bundle/site-packages/4ef79d6367bb14396397__mypyc.so
+04-26 15:22:47.767 10078 10106 V python  : extracting _python_bundle/site-packages/Kivy-2.3.0-py3.11.egg-info/
+04-26 15:22:47.767 10078 10106 V python  : extracting _python_bundle/site-packages/Kivy-2.3.0-py3.11.egg-info/PKG-INFO
+04-26 15:22:47.768 10078 10106 V python  : extracting _python_bundle/site-packages/Kivy-2.3.0-py3.11.egg-info/SOURCES.txt
+04-26 15:22:47.769 10078 10106 V python  : extracting _python_bundle/site-packages/Kivy-2.3.0-py3.11.egg-info/dependency_links.txt
+04-26 15:22:47.770 10078 10106 V python  : extracting _python_bundle/site-packages/Kivy-2.3.0-py3.11.egg-info/requires.txt
+04-26 15:22:47.771 10078 10106 V python  : extracting _python_bundle/site-packages/Kivy-2.3.0-py3.11.egg-info/top_level.txt
+04-26 15:22:47.771 10078 10106 V python  : extracting _python_bundle/site-packages/_distutils_hack/
+04-26 15:22:47.771 10078 10106 V python  : extracting _python_bundle/site-packages/_distutils_hack/__init__.pyc
+04-26 15:22:47.772 10078 10106 V python  : extracting _python_bundle/site-packages/_distutils_hack/override.pyc
+04-26 15:22:47.772 10078 10106 V python  : extracting _python_bundle/site-packages/android/
+04-26 15:22:47.772 10078 10106 V python  : extracting _python_bundle/site-packages/android/__init__.pyc
+04-26 15:22:47.773 10078 10106 V python  : extracting _python_bundle/site-packages/android/_android.so
+04-26 15:22:47.775 10078 10106 V python  : extracting _python_bundle/site-packages/android/_android_billing.so
+04-26 15:22:47.776 10078 10106 V python  : extracting _python_bundle/site-packages/android/_ctypes_library_finder.pyc
+04-26 15:22:47.776 10078 10106 V python  : extracting _python_bundle/site-packages/android/activity.pyc
+04-26 15:22:47.777 10078 10106 V python  : extracting _python_bundle/site-packages/android/billing.pyc
+04-26 15:22:47.778 10078 10106 V python  : extracting _python_bundle/site-packages/android/broadcast.pyc
+04-26 15:22:47.778 10078 10106 V python  : extracting _python_bundle/site-packages/android/config.pyc
+04-26 15:22:47.779 10078 10106 V python  : extracting _python_bundle/site-packages/android/loadingscreen.pyc
+04-26 15:22:47.779 10078 10106 V python  : extracting _python_bundle/site-packages/android/mixer.pyc
+04-26 15:22:47.780 10078 10106 V python  : extracting _python_bundle/site-packages/android/permissions.pyc
+04-26 15:22:47.780 10078 10106 V python  : extracting _python_bundle/site-packages/android/runnable.pyc
+04-26 15:22:47.780 10078 10106 V python  : extracting _python_bundle/site-packages/android/storage.pyc
+04-26 15:22:47.781 10078 10106 V python  : extracting _python_bundle/site-packages/bin/
+04-26 15:22:47.781 10078 10106 V python  : extracting _python_bundle/site-packages/bin/chardetect
+04-26 15:22:47.782 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/
+04-26 15:22:47.782 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/INSTALLER
+04-26 15:22:47.782 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/METADATA
+04-26 15:22:47.784 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/RECORD
+04-26 15:22:47.784 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/REQUESTED
+04-26 15:22:47.784 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/WHEEL
+04-26 15:22:47.785 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/licenses/
+04-26 15:22:47.785 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/licenses/LICENSE
+04-26 15:22:47.786 10078 10106 V python  : extracting _python_bundle/site-packages/certifi-2026.4.22.dist-info/top_level.txt
+04-26 15:22:47.786 10078 10106 V python  : extracting _python_bundle/site-packages/certifi/
+04-26 15:22:47.786 10078 10106 V python  : extracting _python_bundle/site-packages/certifi/__init__.pyc
+04-26 15:22:47.787 10078 10106 V python  : extracting _python_bundle/site-packages/certifi/__main__.pyc
+04-26 15:22:47.787 10078 10106 V python  : extracting _python_bundle/site-packages/certifi/cacert.pem
+04-26 15:22:47.792 10078 10106 V python  : extracting _python_bundle/site-packages/certifi/core.pyc
+04-26 15:22:47.793 10078 10106 V python  : extracting _python_bundle/site-packages/certifi/py.typed
+04-26 15:22:47.793 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/
+04-26 15:22:47.794 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/INSTALLER
+04-26 15:22:47.794 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/METADATA
+04-26 15:22:47.795 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/RECORD
+04-26 15:22:47.796 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/REQUESTED
+04-26 15:22:47.796 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/WHEEL
+04-26 15:22:47.796 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/entry_points.txt
+04-26 15:22:47.797 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/licenses/
+04-26 15:22:47.798 10078 10106 V python  : extracting _python_bundle/site-packages/chardet-7.4.3.dist-info/licenses/LICENSE
+04-26 15:22:47.799 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/
+04-26 15:22:47.799 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/__init__.pyc
+04-26 15:22:47.800 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/__main__.pyc
+04-26 15:22:47.800 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/_utils.pyc
+04-26 15:22:47.801 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/_version.pyc
+04-26 15:22:47.801 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/cli.pyc
+04-26 15:22:47.801 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/detector.pyc
+04-26 15:22:47.802 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/enums.pyc
+04-26 15:22:47.802 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/equivalences.pyc
+04-26 15:22:47.803 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/models/
+04-26 15:22:47.803 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/models/__init__.pyc
+04-26 15:22:47.804 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/models/__init__.so
+04-26 15:22:47.810 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/models/confusion.bin
+04-26 15:22:47.810 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/models/idf.bin
+04-26 15:22:47.811 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/models/models.bin
+04-26 15:22:47.829 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/models/training_metadata.yaml
+04-26 15:22:47.829 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/
+04-26 15:22:47.830 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/__init__.pyc
+04-26 15:22:47.839 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/ascii.pyc
+04-26 15:22:47.885 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/ascii.so
+04-26 15:22:47.885 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/binary.pyc
+04-26 15:22:47.885 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/bom.pyc
+04-26 15:22:47.886 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/confusion.pyc
+04-26 15:22:47.887 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/confusion.so
+04-26 15:22:47.887 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/escape.pyc
+04-26 15:22:47.889 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/escape.so
+04-26 15:22:47.889 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/magic.pyc
+04-26 15:22:47.890 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/magic.so
+04-26 15:22:47.890 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/markup.pyc
+04-26 15:22:47.891 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/orchestrator.pyc
+04-26 15:22:47.892 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/orchestrator.so
+04-26 15:22:47.893 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/statistical.pyc
+04-26 15:22:47.894 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/statistical.so
+04-26 15:22:47.894 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/structural.pyc
+04-26 15:22:47.895 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/structural.so
+04-26 15:22:47.895 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/utf1632.pyc
+04-26 15:22:47.895 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/utf1632.so
+04-26 15:22:47.896 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/utf8.pyc
+04-26 15:22:47.896 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/utf8.so
+04-26 15:22:47.910 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/validity.pyc
+04-26 15:22:47.911 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/pipeline/validity.so
+04-26 15:22:47.912 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/py.typed
+04-26 15:22:47.913 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/registry.pyc
+04-26 15:22:47.913 10078 10106 V python  : extracting _python_bundle/site-packages/chardet/universaldetector.pyc
+04-26 15:22:47.913 10078 10106 V python  : extracting _python_bundle/site-packages/distutils-precedence.pth
+04-26 15:22:47.914 10078 10106 V python  : extracting _python_bundle/site-packages/easy_install.pyc
+04-26 15:22:47.914 10078 10106 V python  : extracting _python_bundle/site-packages/idna-3.13.dist-info/
+04-26 15:22:47.914 10078 10106 V python  : extracting _python_bundle/site-packages/idna-3.13.dist-info/INSTALLER
+04-26 15:22:47.915 10078 10106 V python  : extracting _python_bundle/site-packages/idna-3.13.dist-info/METADATA
+04-26 15:22:47.915 10078 10106 V python  : extracting _python_bundle/site-packages/idna-3.13.dist-info/RECORD
+04-26 15:22:47.916 10078 10106 V python  : extracting _python_bundle/site-packages/idna-3.13.dist-info/REQUESTED
+04-26 15:22:47.916 10078 10106 V python  : extracting _python_bundle/site-packages/idna-3.13.dist-info/WHEEL
+04-26 15:22:47.917 10078 10106 V python  : extracting _python_bundle/site-packages/idna-3.13.dist-info/licenses/
+04-26 15:22:47.918 10078 10106 V python  : extracting _python_bundle/site-packages/idna-3.13.dist-info/licenses/LICENSE.md
+04-26 15:22:47.918 10078 10106 V python  : extracting _python_bundle/site-packages/idna/
+04-26 15:22:47.918 10078 10106 V python  : extracting _python_bundle/site-packages/idna/__init__.pyc
+04-26 15:22:47.920 10078 10106 V python  : extracting _python_bundle/site-packages/idna/codec.pyc
+04-26 15:22:47.937 10078 10106 V python  : extracting _python_bundle/site-packages/idna/compat.pyc
+04-26 15:22:47.939 10078 10106 V python  : extracting _python_bundle/site-packages/idna/core.pyc
+04-26 15:22:47.940 10078 10106 V python  : extracting _python_bundle/site-packages/idna/idnadata.pyc
+04-26 15:22:47.941 10078 10106 V python  : extracting _python_bundle/site-packages/idna/intranges.pyc
+04-26 15:22:47.942 10078 10106 V python  : extracting _python_bundle/site-packages/idna/package_data.pyc
+04-26 15:22:47.942 10078 10106 V python  : extracting _python_bundle/site-packages/idna/py.typed
+04-26 15:22:47.943 10078 10106 V python  : extracting _python_bundle/site-packages/idna/uts46data.pyc
+04-26 15:22:47.951 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/
+04-26 15:22:47.974 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/__init__.pyc
+04-26 15:22:47.975 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/env.pyc
+04-26 15:22:47.975 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/jnius.so
+04-26 15:22:47.980 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/reflect.pyc
+04-26 15:22:47.981 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/signatures.pyc
+04-26 15:22:47.981 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/src/org/
+04-26 15:22:47.986 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/src/org/jnius/
+04-26 15:22:47.997 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/src/org/jnius/NativeInvocationHandler.class
+04-26 15:22:47.998 10078 10106 V python  : extracting _python_bundle/site-packages/jnius/src/org/jnius/NativeInvocationHandler.java
+04-26 15:22:48.000 10078 10106 V python  : extracting _python_bundle/site-packages/jnius_config.pyc
+04-26 15:22:48.000 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/
+04-26 15:22:48.000 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/__init__.pyc
+04-26 15:22:48.001 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/_clock.so
+04-26 15:22:48.006 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/_event.so
+04-26 15:22:48.008 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/_metrics.so
+04-26 15:22:48.009 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/_version.pyc
+04-26 15:22:48.010 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/animation.pyc
+04-26 15:22:48.011 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/app.pyc
+04-26 15:22:48.011 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/atlas.pyc
+04-26 15:22:48.012 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/base.pyc
+04-26 15:22:48.013 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/cache.pyc
+04-26 15:22:48.015 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/clock.pyc
+04-26 15:22:48.016 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/compat.pyc
+04-26 15:22:48.017 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/config.pyc
+04-26 15:22:48.017 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/context.pyc
+04-26 15:22:48.017 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/
+04-26 15:22:48.018 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/__init__.pyc
+04-26 15:22:48.018 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/audio/
+04-26 15:22:48.018 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/audio/__init__.pyc
+04-26 15:22:48.019 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/audio/audio_android.pyc
+04-26 15:22:48.021 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/audio/audio_avplayer.pyc
+04-26 15:22:48.022 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/audio/audio_ffpyplayer.pyc
+04-26 15:22:48.022 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/audio/audio_gstplayer.pyc
+04-26 15:22:48.022 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/audio/audio_pygame.pyc
+04-26 15:22:48.024 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/audio/audio_sdl2.so
+04-26 15:22:48.026 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/camera/
+04-26 15:22:48.029 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/camera/__init__.pyc
+04-26 15:22:48.029 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/camera/camera_android.pyc
+04-26 15:22:48.030 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/camera/camera_gi.pyc
+04-26 15:22:48.031 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/camera/camera_opencv.pyc
+04-26 15:22:48.032 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/camera/camera_picamera.pyc
+04-26 15:22:48.032 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/
+04-26 15:22:48.032 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/__init__.pyc
+04-26 15:22:48.033 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/_clipboard_ext.pyc
+04-26 15:22:48.034 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/_clipboard_sdl2.so
+04-26 15:22:48.035 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_android.pyc
+04-26 15:22:48.036 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_dbusklipper.pyc
+04-26 15:22:48.037 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_dummy.pyc
+04-26 15:22:48.038 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_gtk3.pyc
+04-26 15:22:48.038 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_nspaste.pyc
+04-26 15:22:48.039 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_pygame.pyc
+04-26 15:22:48.040 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_sdl2.pyc
+04-26 15:22:48.040 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_winctypes.pyc
+04-26 15:22:48.041 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_xclip.pyc
+04-26 15:22:48.041 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/clipboard/clipboard_xsel.pyc
+04-26 15:22:48.041 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/gl/
+04-26 15:22:48.041 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/gl/__init__.pyc
+04-26 15:22:48.042 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/
+04-26 15:22:48.043 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/__init__.pyc
+04-26 15:22:48.044 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/_img_sdl2.so
+04-26 15:22:48.045 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/img_dds.pyc
+04-26 15:22:48.045 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/img_ffpyplayer.pyc
+04-26 15:22:48.045 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/img_pil.pyc
+04-26 15:22:48.046 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/img_pygame.pyc
+04-26 15:22:48.046 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/img_sdl2.pyc
+04-26 15:22:48.047 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/image/img_tex.pyc
+04-26 15:22:48.048 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/spelling/
+04-26 15:22:48.048 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/spelling/__init__.pyc
+04-26 15:22:48.049 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/spelling/spelling_enchant.pyc
+04-26 15:22:48.051 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/
+04-26 15:22:48.052 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/__init__.pyc
+04-26 15:22:48.053 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/_text_sdl2.so
+04-26 15:22:48.056 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/markup.pyc
+04-26 15:22:48.057 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/text_layout.so
+04-26 15:22:48.061 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/text_pango.pyc
+04-26 15:22:48.062 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/text_pil.pyc
+04-26 15:22:48.063 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/text_pygame.pyc
+04-26 15:22:48.063 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/text/text_sdl2.pyc
+04-26 15:22:48.064 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/video/
+04-26 15:22:48.064 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/video/__init__.pyc
+04-26 15:22:48.065 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/video/video_ffmpeg.pyc
+04-26 15:22:48.065 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/video/video_ffpyplayer.pyc
+04-26 15:22:48.066 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/video/video_gstplayer.pyc
+04-26 15:22:48.066 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/video/video_null.pyc
+04-26 15:22:48.067 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/window/
+04-26 15:22:48.067 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/window/__init__.pyc
+04-26 15:22:48.069 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/window/_window_sdl2.so
+04-26 15:22:48.071 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/window/window_egl_rpi.pyc
+04-26 15:22:48.072 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/window/window_info.so
+04-26 15:22:48.072 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/window/window_pygame.pyc
+04-26 15:22:48.072 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/core/window/window_sdl2.pyc
+04-26 15:22:48.074 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/
+04-26 15:22:48.076 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/fonts/
+04-26 15:22:48.076 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/fonts/DejaVuSans.ttf
+04-26 15:22:48.087 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/fonts/Roboto-Bold.ttf
+04-26 15:22:48.093 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/fonts/Roboto-BoldItalic.ttf
+04-26 15:22:48.096 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/fonts/Roboto-Italic.ttf
+04-26 15:22:48.100 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/fonts/Roboto-Regular.ttf
+04-26 15:22:48.102 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/fonts/RobotoMono-Regular.ttf
+04-26 15:22:48.105 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/glsl/
+04-26 15:22:48.106 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/glsl/default.fs
+04-26 15:22:48.106 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/glsl/default.png
+04-26 15:22:48.106 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/glsl/default.vs
+04-26 15:22:48.106 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/glsl/header.fs
+04-26 15:22:48.106 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/glsl/header.vs
+04-26 15:22:48.107 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/
+04-26 15:22:48.107 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/background.jpg
+04-26 15:22:48.107 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/cursor.png
+04-26 15:22:48.107 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/defaultshape.png
+04-26 15:22:48.108 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/defaulttheme-0.png
+04-26 15:22:48.111 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/defaulttheme.atlas
+04-26 15:22:48.112 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/image-loading.gif
+04-26 15:22:48.112 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/image-loading.zip
+04-26 15:22:48.113 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/images/testpattern.png
+04-26 15:22:48.113 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/
+04-26 15:22:48.113 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/azerty.json
+04-26 15:22:48.114 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/de.json
+04-26 15:22:48.115 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/de_CH.json
+04-26 15:22:48.115 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/en_US.json
+04-26 15:22:48.116 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/es_ES.json
+04-26 15:22:48.116 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/fr_CH.json
+04-26 15:22:48.116 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/qwerty.json
+04-26 15:22:48.117 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/keyboards/qwertz.json
+04-26 15:22:48.117 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/
+04-26 15:22:48.117 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-128.png
+04-26 15:22:48.118 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-16.png
+04-26 15:22:48.118 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-24.png
+04-26 15:22:48.118 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-256.png
+04-26 15:22:48.119 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-32.png
+04-26 15:22:48.119 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-48.png
+04-26 15:22:48.119 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-512.png
+04-26 15:22:48.120 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-64.ico
+04-26 15:22:48.120 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/logo/kivy-icon-64.png
+04-26 15:22:48.121 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/settings_kivy.json
+04-26 15:22:48.122 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/data/style.kv
+04-26 15:22:48.123 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/deps/
+04-26 15:22:48.123 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/deps/__init__.pyc
+04-26 15:22:48.123 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/effects/
+04-26 15:22:48.124 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/effects/__init__.pyc
+04-26 15:22:48.125 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/effects/dampedscroll.pyc
+04-26 15:22:48.125 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/effects/kinetic.pyc
+04-26 15:22:48.126 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/effects/opacityscroll.pyc
+04-26 15:22:48.126 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/effects/scroll.pyc
+04-26 15:22:48.126 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/event.pyc
+04-26 15:22:48.127 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/eventmanager/
+04-26 15:22:48.127 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/eventmanager/__init__.pyc
+04-26 15:22:48.127 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/extras/
+04-26 15:22:48.128 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/extras/__init__.pyc
+04-26 15:22:48.128 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/extras/highlight.pyc
+04-26 15:22:48.128 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/factory.pyc
+04-26 15:22:48.129 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/factory_registers.pyc
+04-26 15:22:48.129 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/garden/
+04-26 15:22:48.129 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/garden/__init__.pyc
+04-26 15:22:48.129 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/geometry.pyc
+04-26 15:22:48.130 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/gesture.pyc
+04-26 15:22:48.130 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/
+04-26 15:22:48.130 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/__init__.pyc
+04-26 15:22:48.130 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/boxshadow.so
+04-26 15:22:48.132 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/buffer.so
+04-26 15:22:48.132 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/cgl.so
+04-26 15:22:48.136 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/
+04-26 15:22:48.136 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/__init__.pyc
+04-26 15:22:48.136 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_debug.so
+04-26 15:22:48.141 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_gl.so
+04-26 15:22:48.141 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_glew.so
+04-26 15:22:48.142 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_mock.so
+04-26 15:22:48.142 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/cgl_backend/cgl_sdl2.so
+04-26 15:22:48.142 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/compiler.so
+04-26 15:22:48.143 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/context.so
+04-26 15:22:48.146 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/context_instructions.so
+04-26 15:22:48.150 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/fbo.so
+04-26 15:22:48.151 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/gl_instructions.so
+04-26 15:22:48.152 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/instructions.so
+04-26 15:22:48.155 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/opengl.so
+04-26 15:22:48.158 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/opengl_utils.so
+04-26 15:22:48.159 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/scissor_instructions.so
+04-26 15:22:48.161 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/shader.so
+04-26 15:22:48.162 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/stencil_instructions.so
+04-26 15:22:48.164 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/svg.so
+04-26 15:22:48.170 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/tesselator.so
+04-26 15:22:48.173 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/texture.so
+04-26 15:22:48.178 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/transformation.so
+04-26 15:22:48.180 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/vbo.so
+04-26 15:22:48.182 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/vertex.so
+04-26 15:22:48.183 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/graphics/vertex_instructions.so
+04-26 15:22:48.193 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/
+04-26 15:22:48.194 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/__init__.pyc
+04-26 15:22:48.194 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/factory.pyc
+04-26 15:22:48.195 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/motionevent.pyc
+04-26 15:22:48.195 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/postproc/
+04-26 15:22:48.195 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/postproc/__init__.pyc
+04-26 15:22:48.196 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/postproc/calibration.pyc
+04-26 15:22:48.196 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/postproc/dejitter.pyc
+04-26 15:22:48.196 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/postproc/doubletap.pyc
+04-26 15:22:48.197 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/postproc/ignorelist.pyc
+04-26 15:22:48.197 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/postproc/retaintouch.pyc
+04-26 15:22:48.197 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/postproc/tripletap.pyc
+04-26 15:22:48.198 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/provider.pyc
+04-26 15:22:48.198 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/providers/
+04-26 15:22:48.199 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/providers/__init__.pyc
+04-26 15:22:48.199 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/providers/androidjoystick.pyc
+04-26 15:22:48.200 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/providers/leapfinger.pyc
+04-26 15:22:48.200 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/providers/linuxwacom.pyc
+04-26 15:22:48.201 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/providers/mouse.pyc
+04-26 15:22:48.201 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/providers/tuio.pyc
+04-26 15:22:48.202 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/recorder.pyc
+04-26 15:22:48.202 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/input/shape.pyc
+04-26 15:22:48.202 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/interactive.pyc
+04-26 15:22:48.203 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lang/
+04-26 15:22:48.207 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lang/__init__.pyc
+04-26 15:22:48.208 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lang/builder.pyc
+04-26 15:22:48.208 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lang/parser.pyc
+04-26 15:22:48.209 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lib/
+04-26 15:22:48.210 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lib/__init__.pyc
+04-26 15:22:48.210 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lib/ddsfile.pyc
+04-26 15:22:48.211 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lib/gstplayer/
+04-26 15:22:48.211 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lib/gstplayer/__init__.pyc
+04-26 15:22:48.212 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lib/mtdev.pyc
+04-26 15:22:48.212 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lib/vidcore_lite/
+04-26 15:22:48.212 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/lib/vidcore_lite/__init__.pyc
+04-26 15:22:48.213 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/loader.pyc
+04-26 15:22:48.213 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/logger.pyc
+04-26 15:22:48.214 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/metrics.pyc
+04-26 15:22:48.214 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/
+04-26 15:22:48.214 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/__init__.pyc
+04-26 15:22:48.215 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/_webdebugger.pyc
+04-26 15:22:48.218 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/console.pyc
+04-26 15:22:48.219 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/cursor.pyc
+04-26 15:22:48.220 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/inspector.pyc
+04-26 15:22:48.220 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/joycursor.pyc
+04-26 15:22:48.221 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/keybinding.pyc
+04-26 15:22:48.221 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/monitor.pyc
+04-26 15:22:48.221 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/recorder.pyc
+04-26 15:22:48.222 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/screen.pyc
+04-26 15:22:48.222 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/showborder.pyc
+04-26 15:22:48.223 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/touchring.pyc
+04-26 15:22:48.223 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/modules/webdebugger.pyc
+04-26 15:22:48.224 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/multistroke.pyc
+04-26 15:22:48.225 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/network/
+04-26 15:22:48.225 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/network/__init__.pyc
+04-26 15:22:48.226 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/network/urlrequest.pyc
+04-26 15:22:48.226 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/parser.pyc
+04-26 15:22:48.227 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/properties.so
+04-26 15:22:48.231 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/resources.pyc
+04-26 15:22:48.232 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/setupconfig.pyc
+04-26 15:22:48.232 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/storage/
+04-26 15:22:48.233 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/storage/__init__.pyc
+04-26 15:22:48.233 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/storage/dictstore.pyc
+04-26 15:22:48.234 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/storage/jsonstore.pyc
+04-26 15:22:48.234 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/storage/redisstore.pyc
+04-26 15:22:48.235 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/support.pyc
+04-26 15:22:48.235 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/
+04-26 15:22:48.236 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/__init__.pyc
+04-26 15:22:48.236 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/benchmark.pyc
+04-26 15:22:48.237 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/changelog_parser.pyc
+04-26 15:22:48.237 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/coverage.pyc
+04-26 15:22:48.238 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/gallery.pyc
+04-26 15:22:48.238 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/generate-icons.pyc
+04-26 15:22:48.239 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/gles_compat/
+04-26 15:22:48.239 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/gles_compat/subset_gles.pyc
+04-26 15:22:48.240 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/highlight/
+04-26 15:22:48.240 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/highlight/__init__.pyc
+04-26 15:22:48.241 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/highlight/kivy-mode.el
+04-26 15:22:48.241 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/highlight/kivy.json-tmlanguage
+04-26 15:22:48.242 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/highlight/kivy.tmLanguage
+04-26 15:22:48.242 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/highlight/kivy.vim
+04-26 15:22:48.243 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/image-testsuite/
+04-26 15:22:48.243 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/image-testsuite/README.md
+04-26 15:22:48.243 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/image-testsuite/gimp28-testsuite.pyc
+04-26 15:22:48.244 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/image-testsuite/imagemagick-testsuite.sh
+04-26 15:22:48.245 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/kviewer.pyc
+04-26 15:22:48.245 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/
+04-26 15:22:48.245 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/__init__.pyc
+04-26 15:22:48.245 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/cython_cfg.pyc
+04-26 15:22:48.246 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/factory.pyc
+04-26 15:22:48.246 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/
+04-26 15:22:48.247 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/__init__.pyc
+04-26 15:22:48.248 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/__main__.pyc
+04-26 15:22:48.248 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/hook-kivy.pyc
+04-26 15:22:48.249 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/packaging/pyinstaller_hooks/pyi_rth_kivy.pyc
+04-26 15:22:48.249 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/pep8checker/
+04-26 15:22:48.250 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/pep8checker/pep8.pyc
+04-26 15:22:48.251 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/pep8checker/pep8kivy.pyc
+04-26 15:22:48.252 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/pep8checker/pre-commit.githook
+04-26 15:22:48.252 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/precommit_hooks/
+04-26 15:22:48.252 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/precommit_hooks/pre-commit-config.yaml
+04-26 15:22:48.253 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/report.pyc
+04-26 15:22:48.254 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/stub-gl-debug.pyc
+04-26 15:22:48.254 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/texturecompress.pyc
+04-26 15:22:48.254 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/
+04-26 15:22:48.255 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/
+04-26 15:22:48.255 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_bar.png
+04-26 15:22:48.255 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_group.png
+04-26 15:22:48.256 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_group_disabled.png
+04-26 15:22:48.256 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_group_down.png
+04-26 15:22:48.257 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_item.png
+04-26 15:22:48.258 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_item_down.png
+04-26 15:22:48.258 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/action_view.png
+04-26 15:22:48.258 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/audio-volume-high.png
+04-26 15:22:48.259 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/audio-volume-low.png
+04-26 15:22:48.259 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/audio-volume-medium.png
+04-26 15:22:48.260 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/audio-volume-muted.png
+04-26 15:22:48.260 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/bubble.png
+04-26 15:22:48.260 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/bubble_arrow.png
+04-26 15:22:48.261 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/bubble_btn.png
+04-26 15:22:48.261 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/bubble_btn_pressed.png
+04-26 15:22:48.261 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/button.png
+04-26 15:22:48.262 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/button_disabled.png
+04-26 15:22:48.262 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/button_disabled_pressed.png
+04-26 15:22:48.262 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/button_pressed.png
+04-26 15:22:48.262 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_disabled_off.png
+04-26 15:22:48.263 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_disabled_on.png
+04-26 15:22:48.264 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_off.png
+04-26 15:22:48.265 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_on.png
+04-26 15:22:48.265 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png
+04-26 15:22:48.266 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png
+04-26 15:22:48.266 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_radio_off.png
+04-26 15:22:48.266 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/checkbox_radio_on.png
+04-26 15:22:48.267 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/close.png
+04-26 15:22:48.268 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/filechooser_file.png
+04-26 15:22:48.268 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/filechooser_folder.png
+04-26 15:22:48.268 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/filechooser_selected.png
+04-26 15:22:48.269 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/image-missing.png
+04-26 15:22:48.269 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/media-playback-pause.png
+04-26 15:22:48.269 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/media-playback-start.png
+04-26 15:22:48.270 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/media-playback-stop.png
+04-26 15:22:48.270 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/modalview-background.png
+04-26 15:22:48.270 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/overflow.png
+04-26 15:22:48.271 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/player-background.png
+04-26 15:22:48.271 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/player-play-overlay.png
+04-26 15:22:48.273 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/previous_normal.png
+04-26 15:22:48.273 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/progressbar.png
+04-26 15:22:48.274 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/progressbar_background.png
+04-26 15:22:48.274 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/ring.png
+04-26 15:22:48.274 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/selector_left.png
+04-26 15:22:48.275 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/selector_middle.png
+04-26 15:22:48.276 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/selector_right.png
+04-26 15:22:48.276 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/separator.png
+04-26 15:22:48.276 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/slider_cursor.png
+04-26 15:22:48.277 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/slider_cursor_disabled.png
+04-26 15:22:48.278 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/sliderh_background.png
+04-26 15:22:48.278 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/sliderh_background_disabled.png
+04-26 15:22:48.279 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/sliderv_background.png
+04-26 15:22:48.279 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/sliderv_background_disabled.png
+04-26 15:22:48.280 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/spinner.png
+04-26 15:22:48.280 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/spinner_disabled.png
+04-26 15:22:48.280 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/spinner_pressed.png
+04-26 15:22:48.281 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter.png
+04-26 15:22:48.281 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_disabled.png
+04-26 15:22:48.281 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_disabled_down.png
+04-26 15:22:48.281 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png
+04-26 15:22:48.282 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_disabled_h.png
+04-26 15:22:48.282 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_down.png
+04-26 15:22:48.282 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_down_h.png
+04-26 15:22:48.283 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_grip.png
+04-26 15:22:48.283 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_grip_h.png
+04-26 15:22:48.284 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/splitter_h.png
+04-26 15:22:48.284 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/switch-background.png
+04-26 15:22:48.285 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/switch-background_disabled.png
+04-26 15:22:48.285 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/switch-button.png
+04-26 15:22:48.285 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/switch-button_disabled.png
+04-26 15:22:48.286 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab.png
+04-26 15:22:48.286 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_btn.png
+04-26 15:22:48.286 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_btn_disabled.png
+04-26 15:22:48.287 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png
+04-26 15:22:48.287 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_btn_pressed.png
+04-26 15:22:48.287 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tab_disabled.png
+04-26 15:22:48.288 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/textinput.png
+04-26 15:22:48.289 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/textinput_active.png
+04-26 15:22:48.289 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/textinput_disabled.png
+04-26 15:22:48.289 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/textinput_disabled_active.png
+04-26 15:22:48.290 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tree_closed.png
+04-26 15:22:48.290 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/tree_opened.png
+04-26 15:22:48.291 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_background.png
+04-26 15:22:48.291 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png
+04-26 15:22:48.291 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_down.png
+04-26 15:22:48.292 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_normal.png
+04-26 15:22:48.292 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_key_down.png
+04-26 15:22:48.293 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png
+04-26 15:22:48.293 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/
+04-26 15:22:48.294 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/__init__.pyc
+04-26 15:22:48.294 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/accordion.pyc
+04-26 15:22:48.295 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/actionbar.pyc
+04-26 15:22:48.295 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/anchorlayout.pyc
+04-26 15:22:48.296 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/
+04-26 15:22:48.296 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/__init__.pyc
+04-26 15:22:48.296 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/button.pyc
+04-26 15:22:48.297 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/codenavigation.pyc
+04-26 15:22:48.297 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/compoundselection.pyc
+04-26 15:22:48.297 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/cover.pyc
+04-26 15:22:48.298 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/drag.pyc
+04-26 15:22:48.298 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/emacs.pyc
+04-26 15:22:48.299 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/focus.pyc
+04-26 15:22:48.299 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/knspace.pyc
+04-26 15:22:48.300 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/togglebutton.pyc
+04-26 15:22:48.300 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/behaviors/touchripple.pyc
+04-26 15:22:48.300 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/boxlayout.pyc
+04-26 15:22:48.301 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/bubble.pyc
+04-26 15:22:48.301 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/button.pyc
+04-26 15:22:48.301 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/camera.pyc
+04-26 15:22:48.302 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/carousel.pyc
+04-26 15:22:48.302 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/checkbox.pyc
+04-26 15:22:48.302 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/codeinput.pyc
+04-26 15:22:48.303 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/colorpicker.pyc
+04-26 15:22:48.303 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/dropdown.pyc
+04-26 15:22:48.304 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/effectwidget.pyc
+04-26 15:22:48.305 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/filechooser.pyc
+04-26 15:22:48.306 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/floatlayout.pyc
+04-26 15:22:48.306 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/gesturesurface.pyc
+04-26 15:22:48.306 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/gridlayout.pyc
+04-26 15:22:48.308 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/image.pyc
+04-26 15:22:48.308 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/label.pyc
+04-26 15:22:48.309 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/layout.pyc
+04-26 15:22:48.309 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/modalview.pyc
+04-26 15:22:48.309 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/pagelayout.pyc
+04-26 15:22:48.310 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/popup.pyc
+04-26 15:22:48.310 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/progressbar.pyc
+04-26 15:22:48.310 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/recycleboxlayout.pyc
+04-26 15:22:48.311 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/recyclegridlayout.pyc
+04-26 15:22:48.312 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/recyclelayout.pyc
+04-26 15:22:48.312 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/recycleview/
+04-26 15:22:48.313 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/recycleview/__init__.pyc
+04-26 15:22:48.313 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/recycleview/datamodel.pyc
+04-26 15:22:48.314 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/recycleview/layout.pyc
+04-26 15:22:48.314 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/recycleview/views.pyc
+04-26 15:22:48.315 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/relativelayout.pyc
+04-26 15:22:48.315 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/rst.pyc
+04-26 15:22:48.316 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/sandbox.pyc
+04-26 15:22:48.317 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/scatter.pyc
+04-26 15:22:48.317 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/scatterlayout.pyc
+04-26 15:22:48.318 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/screenmanager.pyc
+04-26 15:22:48.318 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/scrollview.pyc
+04-26 15:22:48.320 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/settings.pyc
+04-26 15:22:48.320 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/slider.pyc
+04-26 15:22:48.321 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/spinner.pyc
+04-26 15:22:48.321 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/splitter.pyc
+04-26 15:22:48.322 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/stacklayout.pyc
+04-26 15:22:48.322 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/stencilview.pyc
+04-26 15:22:48.322 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/switch.pyc
+04-26 15:22:48.323 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/tabbedpanel.pyc
+04-26 15:22:48.324 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/textinput.pyc
+04-26 15:22:48.326 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/togglebutton.pyc
+04-26 15:22:48.326 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/treeview.pyc
+04-26 15:22:48.327 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/video.pyc
+04-26 15:22:48.327 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/videoplayer.pyc
+04-26 15:22:48.328 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/vkeyboard.pyc
+04-26 15:22:48.328 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/uix/widget.pyc
+04-26 15:22:48.329 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/utils.pyc
+04-26 15:22:48.329 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/vector.pyc
+04-26 15:22:48.329 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/weakmethod.pyc
+04-26 15:22:48.330 10078 10106 V python  : extracting _python_bundle/site-packages/kivy/weakproxy.so
+04-26 15:22:48.331 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/
+04-26 15:22:48.331 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/__init__.pyc
+04-26 15:22:48.333 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/
+04-26 15:22:48.333 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/__init__.pyc
+04-26 15:22:48.334 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/appdirs.pyc
+04-26 15:22:48.334 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/
+04-26 15:22:48.335 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/__about__.pyc
+04-26 15:22:48.335 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/__init__.pyc
+04-26 15:22:48.335 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/_compat.pyc
+04-26 15:22:48.336 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/_structures.pyc
+04-26 15:22:48.336 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/_typing.pyc
+04-26 15:22:48.337 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/markers.pyc
+04-26 15:22:48.337 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/requirements.pyc
+04-26 15:22:48.339 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/specifiers.pyc
+04-26 15:22:48.339 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/tags.pyc
+04-26 15:22:48.340 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/utils.pyc
+04-26 15:22:48.340 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/packaging/version.pyc
+04-26 15:22:48.341 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/_vendor/pyparsing.pyc
+04-26 15:22:48.343 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/extern/
+04-26 15:22:48.343 10078 10106 V python  : extracting _python_bundle/site-packages/pkg_resources/extern/__init__.pyc
+04-26 15:22:48.345 10078 10106 V python  : extracting _python_bundle/site-packages/pyjnius-1.6.1-py3.11.egg-info/
+04-26 15:22:48.345 10078 10106 V python  : extracting _python_bundle/site-packages/pyjnius-1.6.1-py3.11.egg-info/PKG-INFO
+04-26 15:22:48.346 10078 10106 V python  : extracting _python_bundle/site-packages/pyjnius-1.6.1-py3.11.egg-info/SOURCES.txt
+04-26 15:22:48.346 10078 10106 V python  : extracting _python_bundle/site-packages/pyjnius-1.6.1-py3.11.egg-info/dependency_links.txt
+04-26 15:22:48.346 10078 10106 V python  : extracting _python_bundle/site-packages/pyjnius-1.6.1-py3.11.egg-info/requires.txt
+04-26 15:22:48.347 10078 10106 V python  : extracting _python_bundle/site-packages/pyjnius-1.6.1-py3.11.egg-info/top_level.txt
+04-26 15:22:48.347 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/
+04-26 15:22:48.348 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/INSTALLER
+04-26 15:22:48.348 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/METADATA
+04-26 15:22:48.349 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/RECORD
+04-26 15:22:48.349 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/REQUESTED
+04-26 15:22:48.349 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/WHEEL
+04-26 15:22:48.350 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/licenses/
+04-26 15:22:48.350 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/licenses/LICENSE
+04-26 15:22:48.350 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/licenses/NOTICE
+04-26 15:22:48.351 10078 10106 V python  : extracting _python_bundle/site-packages/requests-2.33.1.dist-info/top_level.txt
+04-26 15:22:48.351 10078 10106 V python  : extracting _python_bundle/site-packages/requests/
+04-26 15:22:48.351 10078 10106 V python  : extracting _python_bundle/site-packages/requests/__init__.pyc
+04-26 15:22:48.352 10078 10106 V python  : extracting _python_bundle/site-packages/requests/__version__.pyc
+04-26 15:22:48.352 10078 10106 V python  : extracting _python_bundle/site-packages/requests/_internal_utils.pyc
+04-26 15:22:48.353 10078 10106 V python  : extracting _python_bundle/site-packages/requests/adapters.pyc
+04-26 15:22:48.353 10078 10106 V python  : extracting _python_bundle/site-packages/requests/api.pyc
+04-26 15:22:48.354 10078 10106 V python  : extracting _python_bundle/site-packages/requests/auth.pyc
+04-26 15:22:48.354 10078 10106 V python  : extracting _python_bundle/site-packages/requests/certs.pyc
+04-26 15:22:48.355 10078 10106 V python  : extracting _python_bundle/site-packages/requests/compat.pyc
+04-26 15:22:48.355 10078 10106 V python  : extracting _python_bundle/site-packages/requests/cookies.pyc
+04-26 15:22:48.356 10078 10106 V python  : extracting _python_bundle/site-packages/requests/exceptions.pyc
+04-26 15:22:48.356 10078 10106 V python  : extracting _python_bundle/site-packages/requests/help.pyc
+04-26 15:22:48.357 10078 10106 V python  : extracting _python_bundle/site-packages/requests/hooks.pyc
+04-26 15:22:48.357 10078 10106 V python  : extracting _python_bundle/site-packages/requests/models.pyc
+04-26 15:22:48.358 10078 10106 V python  : extracting _python_bundle/site-packages/requests/packages.pyc
+04-26 15:22:48.359 10078 10106 V python  : extracting _python_bundle/site-packages/requests/sessions.pyc
+04-26 15:22:48.360 10078 10106 V python  : extracting _python_bundle/site-packages/requests/status_codes.pyc
+04-26 15:22:48.360 10078 10106 V python  : extracting _python_bundle/site-packages/requests/structures.pyc
+04-26 15:22:48.360 10078 10106 V python  : extracting _python_bundle/site-packages/requests/utils.pyc
+04-26 15:22:48.361 10078 10106 V python  : extracting _python_bundle/site-packages/setup_sdist.pyc
+04-26 15:22:48.361 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools-51.3.3-py3.11.egg-info/
+04-26 15:22:48.362 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools-51.3.3-py3.11.egg-info/PKG-INFO
+04-26 15:22:48.362 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools-51.3.3-py3.11.egg-info/SOURCES.txt
+04-26 15:22:48.363 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools-51.3.3-py3.11.egg-info/dependency_links.txt
+04-26 15:22:48.364 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools-51.3.3-py3.11.egg-info/entry_points.txt
+04-26 15:22:48.364 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools-51.3.3-py3.11.egg-info/requires.txt
+04-26 15:22:48.364 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools-51.3.3-py3.11.egg-info/top_level.txt
+04-26 15:22:48.365 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/
+04-26 15:22:48.365 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/__init__.pyc
+04-26 15:22:48.366 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_deprecation_warning.pyc
+04-26 15:22:48.366 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/
+04-26 15:22:48.366 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/__init__.pyc
+04-26 15:22:48.367 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/_msvccompiler.pyc
+04-26 15:22:48.367 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/archive_util.pyc
+04-26 15:22:48.368 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/bcppcompiler.pyc
+04-26 15:22:48.368 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/ccompiler.pyc
+04-26 15:22:48.369 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/cmd.pyc
+04-26 15:22:48.370 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/
+04-26 15:22:48.370 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/__init__.pyc
+04-26 15:22:48.370 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/bdist.pyc
+04-26 15:22:48.371 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/bdist_dumb.pyc
+04-26 15:22:48.371 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/bdist_msi.pyc
+04-26 15:22:48.372 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/bdist_rpm.pyc
+04-26 15:22:48.372 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/bdist_wininst.pyc
+04-26 15:22:48.373 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/build.pyc
+04-26 15:22:48.373 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/build_clib.pyc
+04-26 15:22:48.374 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/build_ext.pyc
+04-26 15:22:48.374 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/build_py.pyc
+04-26 15:22:48.375 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/build_scripts.pyc
+04-26 15:22:48.376 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/check.pyc
+04-26 15:22:48.376 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/clean.pyc
+04-26 15:22:48.376 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/config.pyc
+04-26 15:22:48.377 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/install.pyc
+04-26 15:22:48.377 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/install_data.pyc
+04-26 15:22:48.378 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/install_egg_info.pyc
+04-26 15:22:48.378 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/install_headers.pyc
+04-26 15:22:48.379 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/install_lib.pyc
+04-26 15:22:48.379 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/install_scripts.pyc
+04-26 15:22:48.380 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/py37compat.pyc
+04-26 15:22:48.380 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/register.pyc
+04-26 15:22:48.381 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/sdist.pyc
+04-26 15:22:48.381 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/command/upload.pyc
+04-26 15:22:48.381 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/config.pyc
+04-26 15:22:48.382 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/core.pyc
+04-26 15:22:48.382 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/cygwinccompiler.pyc
+04-26 15:22:48.382 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/debug.pyc
+04-26 15:22:48.383 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/dep_util.pyc
+04-26 15:22:48.383 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/dir_util.pyc
+04-26 15:22:48.384 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/dist.pyc
+04-26 15:22:48.385 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/errors.pyc
+04-26 15:22:48.385 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/extension.pyc
+04-26 15:22:48.386 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/fancy_getopt.pyc
+04-26 15:22:48.386 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/file_util.pyc
+04-26 15:22:48.387 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/filelist.pyc
+04-26 15:22:48.387 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/log.pyc
+04-26 15:22:48.387 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/msvc9compiler.pyc
+04-26 15:22:48.388 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/msvccompiler.pyc
+04-26 15:22:48.389 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/py35compat.pyc
+04-26 15:22:48.390 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/py38compat.pyc
+04-26 15:22:48.390 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/spawn.pyc
+04-26 15:22:48.390 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/sysconfig.pyc
+04-26 15:22:48.391 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/text_file.pyc
+04-26 15:22:48.391 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/unixccompiler.pyc
+04-26 15:22:48.392 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/util.pyc
+04-26 15:22:48.392 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/version.pyc
+04-26 15:22:48.392 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_distutils/versionpredicate.pyc
+04-26 15:22:48.393 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_imp.pyc
+04-26 15:22:48.394 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/
+04-26 15:22:48.394 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/__init__.pyc
+04-26 15:22:48.394 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/ordered_set.pyc
+04-26 15:22:48.395 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/
+04-26 15:22:48.395 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/__about__.pyc
+04-26 15:22:48.395 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/__init__.pyc
+04-26 15:22:48.396 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/_compat.pyc
+04-26 15:22:48.396 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/_structures.pyc
+04-26 15:22:48.396 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/_typing.pyc
+04-26 15:22:48.397 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/markers.pyc
+04-26 15:22:48.397 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/requirements.pyc
+04-26 15:22:48.398 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/specifiers.pyc
+04-26 15:22:48.399 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/tags.pyc
+04-26 15:22:48.400 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/utils.pyc
+04-26 15:22:48.400 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/packaging/version.pyc
+04-26 15:22:48.401 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/_vendor/pyparsing.pyc
+04-26 15:22:48.403 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/archive_util.pyc
+04-26 15:22:48.403 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/build_meta.pyc
+04-26 15:22:48.404 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/cli-32.exe
+04-26 15:22:48.405 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/cli-64.exe
+04-26 15:22:48.406 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/cli.exe
+04-26 15:22:48.408 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/
+04-26 15:22:48.408 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/__init__.pyc
+04-26 15:22:48.409 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/alias.pyc
+04-26 15:22:48.409 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/bdist_egg.pyc
+04-26 15:22:48.410 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/bdist_rpm.pyc
+04-26 15:22:48.410 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/bdist_wininst.pyc
+04-26 15:22:48.411 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/build_clib.pyc
+04-26 15:22:48.412 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/build_ext.pyc
+04-26 15:22:48.412 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/build_py.pyc
+04-26 15:22:48.413 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/develop.pyc
+04-26 15:22:48.413 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/dist_info.pyc
+04-26 15:22:48.414 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/easy_install.pyc
+04-26 15:22:48.415 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/egg_info.pyc
+04-26 15:22:48.416 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/install.pyc
+04-26 15:22:48.416 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/install_egg_info.pyc
+04-26 15:22:48.416 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/install_lib.pyc
+04-26 15:22:48.417 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/install_scripts.pyc
+04-26 15:22:48.417 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/launcher manifest.xml
+04-26 15:22:48.417 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/py36compat.pyc
+04-26 15:22:48.418 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/register.pyc
+04-26 15:22:48.418 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/rotate.pyc
+04-26 15:22:48.419 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/saveopts.pyc
+04-26 15:22:48.419 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/sdist.pyc
+04-26 15:22:48.419 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/setopt.pyc
+04-26 15:22:48.420 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/test.pyc
+04-26 15:22:48.420 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/upload.pyc
+04-26 15:22:48.421 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/command/upload_docs.pyc
+04-26 15:22:48.421 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/config.pyc
+04-26 15:22:48.421 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/dep_util.pyc
+04-26 15:22:48.422 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/depends.pyc
+04-26 15:22:48.423 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/dist.pyc
+04-26 15:22:48.424 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/errors.pyc
+04-26 15:22:48.425 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/extension.pyc
+04-26 15:22:48.425 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/extern/
+04-26 15:22:48.425 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/extern/__init__.pyc
+04-26 15:22:48.426 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/glob.pyc
+04-26 15:22:48.426 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/gui-32.exe
+04-26 15:22:48.428 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/gui-64.exe
+04-26 15:22:48.430 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/gui.exe
+04-26 15:22:48.431 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/installer.pyc
+04-26 15:22:48.432 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/launch.pyc
+04-26 15:22:48.432 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/lib2to3_ex.pyc
+04-26 15:22:48.433 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/monkey.pyc
+04-26 15:22:48.433 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/msvc.pyc
+04-26 15:22:48.434 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/namespaces.pyc
+04-26 15:22:48.435 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/package_index.pyc
+04-26 15:22:48.436 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/py34compat.pyc
+04-26 15:22:48.436 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/sandbox.pyc
+04-26 15:22:48.437 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/script (dev).tmpl
+04-26 15:22:48.437 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/script.tmpl
+04-26 15:22:48.438 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/ssl_support.pyc
+04-26 15:22:48.439 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/unicode_utils.pyc
+04-26 15:22:48.440 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/version.pyc
+04-26 15:22:48.440 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/wheel.pyc
+04-26 15:22:48.441 10078 10106 V python  : extracting _python_bundle/site-packages/setuptools/windows_support.pyc
+04-26 15:22:48.441 10078 10106 V python  : extracting _python_bundle/site-packages/six.pyc
+04-26 15:22:48.442 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3-2.6.3.dist-info/
+04-26 15:22:48.442 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3-2.6.3.dist-info/INSTALLER
+04-26 15:22:48.442 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3-2.6.3.dist-info/METADATA
+04-26 15:22:48.443 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3-2.6.3.dist-info/RECORD
+04-26 15:22:48.444 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3-2.6.3.dist-info/REQUESTED
+04-26 15:22:48.444 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3-2.6.3.dist-info/WHEEL
+04-26 15:22:48.444 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3-2.6.3.dist-info/licenses/
+04-26 15:22:48.445 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3-2.6.3.dist-info/licenses/LICENSE.txt
+04-26 15:22:48.445 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/
+04-26 15:22:48.445 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/__init__.pyc
+04-26 15:22:48.446 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/_base_connection.pyc
+04-26 15:22:48.446 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/_collections.pyc
+04-26 15:22:48.447 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/_request_methods.pyc
+04-26 15:22:48.448 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/_version.pyc
+04-26 15:22:48.448 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/connection.pyc
+04-26 15:22:48.449 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/connectionpool.pyc
+04-26 15:22:48.450 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/
+04-26 15:22:48.450 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/__init__.pyc
+04-26 15:22:48.450 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/emscripten/
+04-26 15:22:48.450 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/emscripten/__init__.pyc
+04-26 15:22:48.451 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/emscripten/connection.pyc
+04-26 15:22:48.452 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/emscripten/emscripten_fetch_worker.js
+04-26 15:22:48.452 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/emscripten/fetch.pyc
+04-26 15:22:48.453 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/emscripten/request.pyc
+04-26 15:22:48.453 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/emscripten/response.pyc
+04-26 15:22:48.454 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/pyopenssl.pyc
+04-26 15:22:48.454 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/contrib/socks.pyc
+04-26 15:22:48.456 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/exceptions.pyc
+04-26 15:22:48.456 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/fields.pyc
+04-26 15:22:48.457 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/filepost.pyc
+04-26 15:22:48.457 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/http2/
+04-26 15:22:48.457 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/http2/__init__.pyc
+04-26 15:22:48.458 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/http2/connection.pyc
+04-26 15:22:48.458 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/http2/probe.pyc
+04-26 15:22:48.459 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/poolmanager.pyc
+04-26 15:22:48.459 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/py.typed
+04-26 15:22:48.459 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/response.pyc
+04-26 15:22:48.460 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/
+04-26 15:22:48.460 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/__init__.pyc
+04-26 15:22:48.461 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/connection.pyc
+04-26 15:22:48.461 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/proxy.pyc
+04-26 15:22:48.461 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/request.pyc
+04-26 15:22:48.462 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/response.pyc
+04-26 15:22:48.462 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/retry.pyc
+04-26 15:22:48.462 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/ssl_.pyc
+04-26 15:22:48.463 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/ssl_match_hostname.pyc
+04-26 15:22:48.463 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/ssltransport.pyc
+04-26 15:22:48.464 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/timeout.pyc
+04-26 15:22:48.464 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/url.pyc
+04-26 15:22:48.465 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/util.pyc
+04-26 15:22:48.465 10078 10106 V python  : extracting _python_bundle/site-packages/urllib3/util/wait.pyc
+04-26 15:22:48.465 10078 10106 V python  : extracting _python_bundle/site-packages/usr/local/
+04-26 15:22:48.466 10078 10106 V python  : extracting _python_bundle/site-packages/usr/local/bin/
+04-26 15:22:48.466 10078 10106 V python  : extracting _python_bundle/site-packages/usr/local/bin/easy_install
+04-26 15:22:48.466 10078 10106 V python  : extracting _python_bundle/site-packages/usr/local/bin/easy_install-3.11
+04-26 15:22:48.467 10078 10106 V python  : extracting _python_bundle/stdlib.zip
+04-26 15:22:48.525 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libSDL2.so
+04-26 15:22:48.525 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_ttf.so
+04-26 15:22:48.525 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_mixer.so
+04-26 15:22:48.525 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libssl1.1.so
+04-26 15:22:48.526 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libpybundle.so
+04-26 15:22:48.526 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libmain.so
+04-26 15:22:48.526 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libpython3.11.so
+04-26 15:22:48.526 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libcrypto1.1.so
+04-26 15:22:48.526 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libffi.so
+04-26 15:22:48.527 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libsqlite3.so
+04-26 15:22:48.527 10078 10078 V pythonutil: Pattern libsqlite3\.so matched file libsqlite3.so
+04-26 15:22:48.527 10078 10078 V pythonutil: Checking pattern libsqlite3\.so against libSDL2_image.so
+04-26 15:22:48.527 10078 10078 V pythonutil: Checking pattern libffi\.so against libSDL2.so
+04-26 15:22:48.528 10078 10078 V pythonutil: Checking pattern libffi\.so against libSDL2_ttf.so
+04-26 15:22:48.528 10078 10078 V pythonutil: Checking pattern libffi\.so against libSDL2_mixer.so
+04-26 15:22:48.528 10078 10078 V pythonutil: Checking pattern libffi\.so against libssl1.1.so
+04-26 15:22:48.528 10078 10078 V pythonutil: Checking pattern libffi\.so against libpybundle.so
+04-26 15:22:48.529 10078 10078 V pythonutil: Checking pattern libffi\.so against libmain.so
+04-26 15:22:48.529 10078 10078 V pythonutil: Checking pattern libffi\.so against libpython3.11.so
+04-26 15:22:48.529 10078 10078 V pythonutil: Checking pattern libffi\.so against libcrypto1.1.so
+04-26 15:22:48.529 10078 10078 V pythonutil: Checking pattern libffi\.so against libffi.so
+04-26 15:22:48.529 10078 10078 V pythonutil: Pattern libffi\.so matched file libffi.so
+04-26 15:22:48.529 10078 10078 V pythonutil: Checking pattern libffi\.so against libsqlite3.so
+04-26 15:22:48.529 10078 10078 V pythonutil: Checking pattern libffi\.so against libSDL2_image.so
+04-26 15:22:48.530 10078 10078 V pythonutil: Checking pattern libpng16\.so against libSDL2.so
+04-26 15:22:48.530 10078 10078 V pythonutil: Checking pattern libpng16\.so against libSDL2_ttf.so
+04-26 15:22:48.530 10078 10078 V pythonutil: Checking pattern libpng16\.so against libSDL2_mixer.so
+04-26 15:22:48.530 10078 10078 V pythonutil: Checking pattern libpng16\.so against libssl1.1.so
+04-26 15:22:48.530 10078 10078 V pythonutil: Checking pattern libpng16\.so against libpybundle.so
+04-26 15:22:48.530 10078 10078 V pythonutil: Checking pattern libpng16\.so against libmain.so
+04-26 15:22:48.530 10078 10078 V pythonutil: Checking pattern libpng16\.so against libpython3.11.so
+04-26 15:22:48.530 10078 10078 V pythonutil: Checking pattern libpng16\.so against libcrypto1.1.so
+04-26 15:22:48.531 10078 10078 V pythonutil: Checking pattern libpng16\.so against libffi.so
+04-26 15:22:48.531 10078 10078 V pythonutil: Checking pattern libpng16\.so against libsqlite3.so
+04-26 15:22:48.531 10078 10078 V pythonutil: Checking pattern libpng16\.so against libSDL2_image.so
+04-26 15:22:48.531 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libSDL2.so
+04-26 15:22:48.532 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libSDL2_ttf.so
+04-26 15:22:48.532 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libSDL2_mixer.so
+04-26 15:22:48.532 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libssl1.1.so
+04-26 15:22:48.532 10078 10078 V pythonutil: Pattern libssl.*\.so matched file libssl1.1.so
+04-26 15:22:48.532 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libpybundle.so
+04-26 15:22:48.533 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libmain.so
+04-26 15:22:48.534 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libpython3.11.so
+04-26 15:22:48.534 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libcrypto1.1.so
+04-26 15:22:48.534 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libffi.so
+04-26 15:22:48.534 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libsqlite3.so
+04-26 15:22:48.535 10078 10078 V pythonutil: Checking pattern libssl.*\.so against libSDL2_image.so
+04-26 15:22:48.535 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2.so
+04-26 15:22:48.535 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_ttf.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_mixer.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libssl1.1.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libpybundle.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libmain.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libpython3.11.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libcrypto1.1.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Pattern libcrypto.*\.so matched file libcrypto1.1.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libffi.so
+04-26 15:22:48.536 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libsqlite3.so
+04-26 15:22:48.537 10078 10078 V pythonutil: Checking pattern libcrypto.*\.so against libSDL2_image.so
+04-26 15:22:48.537 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libSDL2.so
+04-26 15:22:48.537 10078 10078 V pythonutil: Pattern libSDL2\.so matched file libSDL2.so
+04-26 15:22:48.537 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libSDL2_ttf.so
+04-26 15:22:48.537 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libSDL2_mixer.so
+04-26 15:22:48.537 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libssl1.1.so
+04-26 15:22:48.538 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libpybundle.so
+04-26 15:22:48.538 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libmain.so
+04-26 15:22:48.538 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libpython3.11.so
+04-26 15:22:48.538 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libcrypto1.1.so
+04-26 15:22:48.539 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libffi.so
+04-26 15:22:48.539 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libsqlite3.so
+04-26 15:22:48.539 10078 10078 V pythonutil: Checking pattern libSDL2\.so against libSDL2_image.so
+04-26 15:22:48.540 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2.so
+04-26 15:22:48.540 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_ttf.so
+04-26 15:22:48.540 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_mixer.so
+04-26 15:22:48.540 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libssl1.1.so
+04-26 15:22:48.540 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libpybundle.so
+04-26 15:22:48.541 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libmain.so
+04-26 15:22:48.541 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libpython3.11.so
+04-26 15:22:48.541 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libcrypto1.1.so
+04-26 15:22:48.541 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libffi.so
+04-26 15:22:48.541 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libsqlite3.so
+04-26 15:22:48.542 10078 10078 V pythonutil: Checking pattern libSDL2_image\.so against libSDL2_image.so
+04-26 15:22:48.542 10078 10078 V pythonutil: Pattern libSDL2_image\.so matched file libSDL2_image.so
+04-26 15:22:48.542 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2.so
+04-26 15:22:48.542 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_ttf.so
+04-26 15:22:48.542 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_mixer.so
+04-26 15:22:48.543 10078 10078 V pythonutil: Pattern libSDL2_mixer\.so matched file libSDL2_mixer.so
+04-26 15:22:48.543 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libssl1.1.so
+04-26 15:22:48.543 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libpybundle.so
+04-26 15:22:48.543 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libmain.so
+04-26 15:22:48.544 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libpython3.11.so
+04-26 15:22:48.544 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libcrypto1.1.so
+04-26 15:22:48.544 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libffi.so
+04-26 15:22:48.544 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libsqlite3.so
+04-26 15:22:48.544 10078 10078 V pythonutil: Checking pattern libSDL2_mixer\.so against libSDL2_image.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_ttf.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Pattern libSDL2_ttf\.so matched file libSDL2_ttf.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_mixer.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libssl1.1.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libpybundle.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libmain.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libpython3.11.so
+04-26 15:22:48.545 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libcrypto1.1.so
+04-26 15:22:48.546 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libffi.so
+04-26 15:22:48.546 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libsqlite3.so
+04-26 15:22:48.546 10078 10078 V pythonutil: Checking pattern libSDL2_ttf\.so against libSDL2_image.so
+04-26 15:22:48.546 10078 10078 V pythonutil: Loading library: sqlite3
+04-26 15:22:48.554 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libsqlite3.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.555 10078 10078 V pythonutil: Loading library: ffi
+04-26 15:22:48.557 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libffi.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.557 10078 10078 V pythonutil: Loading library: ssl1.1
+04-26 15:22:48.561 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libssl1.1.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.561 10078 10078 V pythonutil: Loading library: crypto1.1
+04-26 15:22:48.562 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libcrypto1.1.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.563 10078 10078 V pythonutil: Loading library: SDL2
+04-26 15:22:48.605 10078 10093 I rmflow.dormflow: Compiler allocated 5174KB to compile void android.view.ViewRootImpl.performTraversals()
+04-26 15:22:48.634 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libSDL2.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.634 10078 10078 V pythonutil: Loading library: SDL2_image
+04-26 15:22:48.636 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libSDL2_image.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.636 10078 10078 V pythonutil: Loading library: SDL2_mixer
+04-26 15:22:48.639 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libSDL2_mixer.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.639 10078 10078 V pythonutil: Loading library: SDL2_ttf
+04-26 15:22:48.644 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libSDL2_ttf.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.644 10078 10078 V pythonutil: Loading library: python3.5m
+04-26 15:22:48.649 10078 10078 D nativeloader: Load libpython3.5m.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): dlopen failed: library "libpython3.5m.so" not found
+04-26 15:22:48.649 10078 10078 V pythonutil: Library loading error: dlopen failed: library "libpython3.5m.so" not found
+04-26 15:22:48.649 10078 10078 V pythonutil: Loading library: python3.6m
+04-26 15:22:48.652 10078 10078 D nativeloader: Load libpython3.6m.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): dlopen failed: library "libpython3.6m.so" not found
+04-26 15:22:48.652 10078 10078 V pythonutil: Library loading error: dlopen failed: library "libpython3.6m.so" not found
+04-26 15:22:48.652 10078 10078 V pythonutil: Loading library: python3.7m
+04-26 15:22:48.656 10078 10078 D nativeloader: Load libpython3.7m.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): dlopen failed: library "libpython3.7m.so" not found
+04-26 15:22:48.657 10078 10078 V pythonutil: Library loading error: dlopen failed: library "libpython3.7m.so" not found
+04-26 15:22:48.657 10078 10078 V pythonutil: Loading library: python3.8
+04-26 15:22:48.661 10078 10078 D nativeloader: Load libpython3.8.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): dlopen failed: library "libpython3.8.so" not found
+04-26 15:22:48.661 10078 10078 V pythonutil: Library loading error: dlopen failed: library "libpython3.8.so" not found
+04-26 15:22:48.661 10078 10078 V pythonutil: Loading library: python3.9
+04-26 15:22:48.665 10078 10078 D nativeloader: Load libpython3.9.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): dlopen failed: library "libpython3.9.so" not found
+04-26 15:22:48.665 10078 10078 V pythonutil: Library loading error: dlopen failed: library "libpython3.9.so" not found
+04-26 15:22:48.665 10078 10078 V pythonutil: Loading library: python3.10
+04-26 15:22:48.670 10078 10078 D nativeloader: Load libpython3.10.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): dlopen failed: library "libpython3.10.so" not found
+04-26 15:22:48.670 10078 10078 V pythonutil: Library loading error: dlopen failed: library "libpython3.10.so" not found
+04-26 15:22:48.670 10078 10078 V pythonutil: Loading library: python3.11
+04-26 15:22:48.675 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libpython3.11.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.675 10078 10078 V pythonutil: Loading library: main
+04-26 15:22:48.678 10078 10078 D nativeloader: Load /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libmain.so using ns clns-7 from class loader (caller=/data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/base.apk!classes5.dex): ok
+04-26 15:22:48.679 10078 10078 V pythonutil: Loaded everything!
+04-26 15:22:48.683 10078 10078 V SDL     : nativeSetupJNI()
+04-26 15:22:48.684 10078 10078 W SDLActivity: type=1400 audit(0.0:317): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=735 scontext=u:r:untrusted_app_32:s0:c212,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=org.dormflow.dormflow
+04-26 15:22:48.686 10078 10078 V SDL     : AUDIO nativeSetupJNI()
+04-26 15:22:48.686 10078 10078 V SDL     : CONTROLLER nativeSetupJNI()
+04-26 15:22:48.684 10078 10078 W SDLActivity: type=1400 audit(0.0:318): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=735 scontext=u:r:untrusted_app_32:s0:c212,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=org.dormflow.dormflow
+04-26 15:22:48.684 10078 10078 W SDLActivity: type=1400 audit(0.0:319): avc:  denied  { getattr } for  path="/dev/pmsg0" dev="tmpfs" ino=735 scontext=u:r:untrusted_app_32:s0:c212,c256,c512,c768 tcontext=u:object_r:pmsg_device:s0 tclass=chr_file permissive=0 app=org.dormflow.dormflow
+04-26 15:22:48.706 10078 10078 V PythonActivity: Setting env vars for start.c and Python to use
+04-26 15:22:48.706 10078 10078 V PythonActivity: Access to our meta-data...
+04-26 15:22:48.706 10078 10078 I PythonActivity: Surface will NOT be transparent
+04-26 15:22:48.723 10078 10078 V SDL     : surfaceCreated()
+04-26 15:22:48.724 10078 10078 V SDL     : surfaceChanged()
+04-26 15:22:48.724 10078 10078 V SDL     : Window size: 1080x2201
+04-26 15:22:48.724 10078 10078 V SDL     : Device size: 1080x2400
+04-26 15:22:48.727 10078 10115 V SDL     : Running main function SDL_main from library /data/app/~~buefIO2CM1kCSMC2hsD9nA==/org.dormflow.dormflow-3fXng_PXRnVKxQ8lYbYtBw==/lib/arm64/libmain.so
+04-26 15:22:48.727 10078 10115 V PythonActivity: appConfirmedActive() -> preparing loading screen removal
+04-26 15:22:48.727 10078 10115 V SDL     : nativeRunMain()
+04-26 15:22:48.730 10078 10115 I python  : Initializing Python for Android
+04-26 15:22:48.730 10078 10115 I python  : Setting additional env vars from p4a_env_vars.txt
+04-26 15:22:48.736 10078 10115 I python  : Changing directory to the one provided by ANDROID_ARGUMENT
+04-26 15:22:48.736 10078 10115 I python  : /data/user/0/org.dormflow.dormflow/files/app
+04-26 15:22:48.738 10078 10115 I python  : Preparing to initialize python
+04-26 15:22:48.739 10078 10115 I python  : _python_bundle dir exists
+04-26 15:22:48.739 10078 10115 I python  : calculated paths to be...
+04-26 15:22:48.739 10078 10115 I python  : /data/user/0/org.dormflow.dormflow/files/app/_python_bundle/stdlib.zip:/data/user/0/org.dormflow.dormflow/files/app/_python_bundle/modules
+04-26 15:22:48.740 10078 10115 I python  : set wchar paths...
+04-26 15:22:48.922 10078 10115 I python  : Initialized python
+04-26 15:22:48.922 10078 10115 I python  : AND: Init threads
+04-26 15:22:48.942 10078 10115 I python  : testing python print redirection
+04-26 15:22:48.957 10078 10115 I python  : Android path ['.', '/data/user/0/org.dormflow.dormflow/files/app/_python_bundle/stdlib.zip', '/data/user/0/org.dormflow.dormflow/files/app/_python_bundle/modules', '/data/user/0/org.dormflow.dormflow/files/app/_python_bundle/site-packages']
+04-26 15:22:48.959 10078 10115 I python  : os.environ is environ({'PATH': '/product/bin:/apex/com.android.runtime/bin:/apex/com.android.art/bin:/system_ext/bin:/system/bin:/system/xbin:/odm/bin:/vendor/bin:/vendor/xbin', 'ANDROID_BOOTLOGO': '1', 'ANDROID_ROOT': '/system', 'ANDROID_ASSETS': '/system/app', 'ANDROID_DATA': '/data', 'ANDROID_STORAGE': '/storage', 'ANDROID_ART_ROOT': '/apex/com.android.art', 'ANDROID_I18N_ROOT': '/apex/com.android.i18n', 'ANDROID_TZDATA_ROOT': '/apex/com.android.tzdata', 'EXTERNAL_STORAGE': '/sdcard', 'ASEC_MOUNTPOINT': '/mnt/asec', 'DOWNLOAD_CACHE': '/data/cache', 'BOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/apex/com.android.i18n/javalib/core-icu4j.jar:/apex/com.android.adservices/javalib/framework-adservices.jar:/apex/com.android.adservices/javalib/framework-sdksandbox.jar:/apex/com.android.appsearch/javalib/framework-appsearch.jar:/apex/com.android.btservices/javalib/framework-bluetooth.jar:/apex/com.android.configinfrastructure/javalib/framework-configinfrastructure.jar:/apex/com.android.conscrypt/javalib/conscrypt.jar:/apex/com.android.devicelock/javalib/framework-devicelock.jar:/apex/com.android.healthfitness/javalib/framework-healthfitness.jar:/apex/com.android.ipsec/javalib/android.net.ipsec.ike.jar:/apex/com.android.media/javalib/updatable-media.jar:/apex/com.android.mediaprovider/javalib/framework-mediaprovider.jar:/apex/com.android.mediaprovider/javalib/framework-pdf.jar:/apex/com.android.mediaprovider/javalib/framework-pdf-v.jar:/apex/com.android.nfcservices/javalib/framework-nfc.jar:/apex/com.android.ondevicepersonalization/javalib/framework-ondevicepersonalization.jar:/apex/com.android.os.statsd/javalib/framework-statsd.jar:/apex/com.android.permission/javalib/framework-permission.jar:/apex/com.android.permission/javalib/framework-permission-s.jar:/apex/com.android.profiling/javalib/framework-profiling.jar:/apex/com.android.scheduling/javalib/framework-scheduling.jar:/apex/com.android.sdkext/javalib/framework-sdkextensions.jar:/apex/com.android.tethering/javalib/framework-connectivity.jar:/apex/com.android.tethering/javalib/framework-connectivity-t.jar:/apex/com.android.tethering/javalib/framework-tethering.jar:/apex/com.android.uwb/javalib/framework-uwb.jar:/apex/com.android.virt/javalib/framework-virtualization.jar:/apex/com.android.wifi/javalib/framework-wifi.jar', 'DEX2OATBOOTCLASSPATH': '/apex/com.android.art/javalib/core-oj.jar:/apex/com.android.art/javalib/core-libart.jar:/apex/com.android.art/javalib/okhttp.jar:/apex/com.android.art/javalib/bouncycastle.jar:/apex/com.android.art/javalib/apache-xml.jar:/system/framework/framework.jar:/system/framework/framework-graphics.jar:/system/framework/framework-location.jar:/system/framework/ext.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/apex/com.android.i18n/javalib/core-icu4j.jar', 'SYSTEMSERVERCLASSPATH': '/system/framework/com.android.location.provider.jar:/system/framework/services.jar:/apex/com.android.adservices/javalib/service-adservices.jar:/apex/com.android.adservices/javalib/service-sdksandbox.jar:/apex/com.android.appsearch/javalib/service-appsearch.jar:/apex/com.android.art/javalib/service-art.jar:/apex/com.android.compos/javalib/service-compos.jar:/apex/com.android.configinfrastructure/javalib/service-configinfrastructure.jar:/apex/com.android.healthfitness/javalib/service-healthfitness.jar:/apex/com.android.media/javalib/service-media-s.jar:/apex/com.android.ondevicepersonalization/javalib/service-ondevicepersonalization.jar:/apex/com.android.permission/javalib/service-permission.jar:/apex/com.android.rkpd/javalib/service-r
+04-26 15:22:48.959 10078 10115 I python  : Android kivy bootstrap done. __name__ is __main__
+04-26 15:22:48.959 10078 10115 I python  : AND: Ran string
+04-26 15:22:48.959 10078 10115 I python  : Run user program, change dir and execute entrypoint
+04-26 15:22:49.144 10078 10078 W SDLThread: type=1400 audit(0.0:320): avc:  denied  { ioctl } for  path="/system/etc/cpuinfo.arm64.txt" dev="dm-5" ino=721 ioctlcmd=0x5401 scontext=u:r:untrusted_app_32:s0:c212,c256,c512,c768 tcontext=u:object_r:system_file:s0 tclass=file permissive=0 app=org.dormflow.dormflow
+04-26 15:22:49.161 10078 10115 I python  : [DEBUG  ] [Config      ] Upgrading from 0 to 1
+04-26 15:22:49.165 10078 10115 I python  : [INFO   ] [Logger      ] Record log in /data/user/0/org.dormflow.dormflow/files/.kivy/logs/kivy_26-04-26_0.txt
+04-26 15:22:49.165 10078 10115 I python  : [INFO   ] [Kivy        ] v2.3.0
+04-26 15:22:49.165 10078 10115 I python  : [INFO   ] [Kivy        ] Installed at "/data/user/0/org.dormflow.dormflow/files/app/_python_bundle/site-packages/kivy/__init__.pyc"
+04-26 15:22:49.166 10078 10115 I python  : [INFO   ] [Python      ] v3.11.5 (main, Apr 24 2026, 21:45:58) [Clang 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0
+04-26 15:22:49.166 10078 10115 I python  : [INFO   ] [Python      ] Interpreter at ""
+04-26 15:22:49.167 10078 10115 I python  : [INFO   ] [Logger      ] Purge log fired. Processing...
+04-26 15:22:49.167 10078 10115 I python  : [INFO   ] [Logger      ] Purge finished!
+04-26 15:22:49.741 10078 10115 I python  : [INFO   ] [Factory     ] 195 symbols loaded
+04-26 15:22:49.966 10078 10115 I python  : [INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+04-26 15:22:50.002 10078 10115 I python  : [INFO   ] [Window      ] Provider: sdl2
+04-26 15:22:50.019 10078 10115 V hidapi  : initialize(true, false)
+04-26 15:22:50.026 10078 10115 V SDL     : setOrientation() requestedOrientation=1 width=800 height=600 resizable=true hint=Portrait
+04-26 15:22:50.031 10078 10115 V SDL     : setOrientation() requestedOrientation=1 width=800 height=600 resizable=true hint=Portrait
+04-26 15:22:50.044 10078 10115 I SDL/APP : pixel format wanted SDL_PIXELFORMAT_RGBA8888 (1), got SDL_PIXELFORMAT_RGBA8888 (1)
+04-26 15:22:50.096 10078 10115 I python  : [INFO   ] [GL          ] Using the "OpenGL ES 2" graphics system
+04-26 15:22:50.098 10078 10115 I python  : [INFO   ] [GL          ] Backend used <sdl2>
+04-26 15:22:50.099 10078 10115 I python  : [INFO   ] [GL          ] OpenGL version <b'OpenGL ES 3.1 (4.5.0 NVIDIA 596.21)'>
+04-26 15:22:50.099 10078 10115 I python  : [INFO   ] [GL          ] OpenGL vendor <b'Google (NVIDIA Corporation)'>
+04-26 15:22:50.099 10078 10115 I python  : [INFO   ] [GL          ] OpenGL renderer <b'Android Emulator OpenGL ES Translator (NVIDIA GeForce RTX 5080/PCIe/SSE2)'>
+04-26 15:22:50.099 10078 10115 I python  : [INFO   ] [GL          ] OpenGL parsed version: 3, 1
+04-26 15:22:50.100 10078 10115 I python  : [INFO   ] [GL          ] Texture max size <32768>
+04-26 15:22:50.101 10078 10115 I python  : [INFO   ] [GL          ] Texture max units <32>
+04-26 15:22:50.120 10078 10115 I python  : [INFO   ] [Window      ] auto add sdl2 input provider
+04-26 15:22:50.123 10078 10115 I python  : [INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+04-26 15:22:50.129 10078 10115 I python  : [INFO   ] [Text        ] Provider: sdl2
+04-26 15:22:50.404 10078 10115 I python  : [INFO   ] [GL          ] NPOT texture support is available
+04-26 15:22:50.606 10078 10115 I python  : [WARNING] [Base        ] Unknown <android> provider
+04-26 15:22:50.607 10078 10115 I python  : [INFO   ] [Base        ] Start application main loop
+04-26 15:22:50.790 10078 10103 D EGL_emulation: app_time_stats: avg=1533.93ms min=1012.97ms max=2054.88ms count=2
+04-26 15:22:54.875 10078 10115 D EGL_emulation: app_time_stats: avg=2013.90ms min=12.03ms max=4015.76ms count=2
+04-26 15:22:55.723 10078 10078 I ImeTracker: org.dormflow.dormflow:a48ff8b2: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+04-26 15:22:55.747 10078 10078 D CompatChangeReporter: Compat change id reported: 210923482; UID 10212; state: ENABLED
+04-26 15:22:55.762 10078 10093 I rmflow.dormflow: Compiler allocated 4219KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+04-26 15:22:55.766 10078 10078 D InputMethodManager: showSoftInput() view=org.libsdl.app.DummyEdit{50ea640 VFED..... .F....I. 0,0-0,0 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+04-26 15:22:55.775 10078 10103 D EGL_emulation: app_time_stats: avg=4985.08ms min=4985.08ms max=4985.08ms count=1
+04-26 15:22:55.777 10078 10093 I rmflow.dormflow: Compiler allocated 4221KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+04-26 15:22:55.926 10078 10078 D InsetsController: show(ime(), fromIme=true)
+04-26 15:22:55.941 10078 10155 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=org.dormflow.dormflow
+04-26 15:22:55.958 10078 10115 D EGL_emulation: app_time_stats: avg=180.19ms min=9.62ms max=815.76ms count=6
+04-26 15:22:56.131 10078 10078 I ImeTracker: org.dormflow.dormflow:e703c446: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+04-26 15:22:56.140 10078 10078 I ImeTracker: org.dormflow.dormflow:fb14934c: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+04-26 15:22:56.140 10078 10078 D InputMethodManager: showSoftInput() view=org.libsdl.app.DummyEdit{50ea640 VFED..... .F....ID 0,0-0,0 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+04-26 15:22:56.141 10078 10078 D InsetsController: hide(ime(), fromIme=true)
+04-26 15:22:56.142 10078 10078 I ImeTracker: org.dormflow.dormflow:a48ff8b2: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.181 10078 10078 D InsetsController: show(ime(), fromIme=true)
+04-26 15:22:56.181 10078 10078 I ImeTracker: org.dormflow.dormflow:e703c446: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.314 10078 10078 I ImeTracker: org.dormflow.dormflow:834edc: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+04-26 15:22:56.329 10078 10078 I ImeTracker: org.dormflow.dormflow:fd08ab47: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+04-26 15:22:56.329 10078 10078 D InputMethodManager: showSoftInput() view=org.libsdl.app.DummyEdit{50ea640 VFED..... .F....ID 0,0-0,0 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+04-26 15:22:56.330 10078 10078 D InsetsController: hide(ime(), fromIme=true)
+04-26 15:22:56.331 10078 10078 I ImeTracker: org.dormflow.dormflow:fb14934c: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.367 10078 10078 D InsetsController: show(ime(), fromIme=true)
+04-26 15:22:56.367 10078 10078 I ImeTracker: org.dormflow.dormflow:834edc: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.491 10078 10078 I ImeTracker: org.dormflow.dormflow:a73d9339: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+04-26 15:22:56.507 10078 10078 I ImeTracker: org.dormflow.dormflow:20b05ceb: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+04-26 15:22:56.507 10078 10078 D InputMethodManager: showSoftInput() view=org.libsdl.app.DummyEdit{50ea640 VFED..... .F....ID 0,0-0,0 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+04-26 15:22:56.508 10078 10078 D InsetsController: hide(ime(), fromIme=true)
+04-26 15:22:56.508 10078 10078 I ImeTracker: org.dormflow.dormflow:fd08ab47: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.535 10078 10078 D InsetsController: show(ime(), fromIme=true)
+04-26 15:22:56.536 10078 10078 I ImeTracker: org.dormflow.dormflow:a73d9339: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.614 10078 10078 I ImeTracker: org.dormflow.dormflow:f109513e: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+04-26 15:22:56.637 10078 10078 I ImeTracker: org.dormflow.dormflow:1c598d89: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+04-26 15:22:56.637 10078 10078 D InputMethodManager: showSoftInput() view=org.libsdl.app.DummyEdit{50ea640 VFED..... .F....ID 0,0-0,0 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+04-26 15:22:56.638 10078 10078 D InsetsController: hide(ime(), fromIme=true)
+04-26 15:22:56.638 10078 10078 I ImeTracker: org.dormflow.dormflow:20b05ceb: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.675 10078 10078 D InsetsController: show(ime(), fromIme=true)
+04-26 15:22:56.675 10078 10078 I ImeTracker: org.dormflow.dormflow:f109513e: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.728 10078 10078 I ImeTracker: org.dormflow.dormflow:73722fca: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+04-26 15:22:56.729 10078 10078 I ImeTracker: org.dormflow.dormflow:276fcfd: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+04-26 15:22:56.729 10078 10078 D InputMethodManager: showSoftInput() view=org.libsdl.app.DummyEdit{50ea640 VFED..... .F....ID 0,0-10,16 aid=1073741825} flags=0 reason=SHOW_SOFT_INPUT
+04-26 15:22:56.743 10078 10078 D InsetsController: hide(ime(), fromIme=true)
+04-26 15:22:56.743 10078 10078 I ImeTracker: org.dormflow.dormflow:1c598d89: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.768 10078 10078 D InsetsController: show(ime(), fromIme=true)
+04-26 15:22:56.769 10078 10078 I ImeTracker: org.dormflow.dormflow:73722fca: onCancelled at PHASE_CLIENT_ANIMATION_CANCEL
+04-26 15:22:56.988 10078 10078 I ImeTracker: org.dormflow.dormflow:276fcfd: onShown
+04-26 15:22:57.013 10078 10078 I ImeTracker: org.dormflow.dormflow:f100791: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+04-26 15:22:57.022 10078 10103 D EGL_emulation: app_time_stats: avg=124.57ms min=11.45ms max=365.12ms count=10
+04-26 15:22:57.022 10078 10078 D InsetsController: hide(ime(), fromIme=true)
+04-26 15:22:57.023 10078 10078 W RemoteInputConnectionImpl: requestCursorUpdates on inactive InputConnection
+04-26 15:22:57.032 10078 10115 D EGL_emulation: app_time_stats: avg=43.05ms min=10.76ms max=222.99ms count=24
+04-26 15:22:57.242 10078 10078 I ImeTracker: org.dormflow.dormflow:5639a0b0: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT_ON_ANIMATION_STATE_CHANGED fromUser false
+04-26 15:22:57.243 10078 10078 I ImeTracker: org.dormflow.dormflow:f100791: onHidden
+04-26 15:23:00.628 10078 10115 D EGL_emulation: app_time_stats: avg=3596.16ms min=3596.16ms max=3596.16ms count=1

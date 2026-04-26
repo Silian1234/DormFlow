@@ -1,0 +1,880 @@
+#:kivy 2.3.0
+#:import dp kivy.metrics.dp
+#:import rgba kivy.utils.get_color_from_hex
+#:import NoTransition kivy.uix.screenmanager.NoTransition
+
+<ScreenShell@BoxLayout>:
+    orientation: "vertical"
+    padding: [dp(18), dp(18), dp(18), dp(14)]
+    spacing: dp(12)
+    canvas.before:
+        Color:
+            rgba: rgba("#F5EFE4")
+        Rectangle:
+            pos: self.pos
+            size: self.size
+
+<PageTitle@Label>:
+    size_hint_y: None
+    height: dp(42)
+    color: rgba("#17212B")
+    font_size: "24sp"
+    bold: True
+    halign: "left"
+    valign: "middle"
+    text_size: self.width, None
+
+<PageSubtitle@Label>:
+    size_hint_y: None
+    height: dp(24)
+    color: rgba("#6A5E52")
+    font_size: "13sp"
+    halign: "left"
+    valign: "middle"
+    text_size: self.width, None
+
+<BodyText@Label>:
+    color: rgba("#2A323A")
+    font_size: "15sp"
+    halign: "left"
+    valign: "top"
+    text_size: self.width, None
+
+<MetaText@Label>:
+    color: rgba("#6A5E52")
+    font_size: "13sp"
+    halign: "left"
+    valign: "middle"
+    text_size: self.width, None
+
+<CardLabel@Label>:
+    markup: True
+    color: rgba("#1E2A32")
+    font_size: "15sp"
+    halign: "left"
+    valign: "middle"
+    text_size: self.width - dp(28), None
+    padding: [dp(14), dp(10)]
+    size_hint_y: None
+    height: dp(118)
+    canvas.before:
+        Color:
+            rgba: rgba("#FFFDF8")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(18)]
+
+<HeroCard@BoxLayout>:
+    orientation: "vertical"
+    padding: [dp(18), dp(14), dp(18), dp(14)]
+    spacing: dp(7)
+    size_hint_y: None
+    height: dp(172)
+    canvas.before:
+        Color:
+            rgba: rgba("#0F2830")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(28)]
+        Color:
+            rgba: rgba("#F2B66D")
+        RoundedRectangle:
+            pos: self.x + self.width - dp(104), self.y + self.height - dp(54)
+            size: dp(92), dp(48)
+            radius: [dp(24)]
+        Color:
+            rgba: rgba("#69B7A5")
+        RoundedRectangle:
+            pos: self.x + dp(10), self.y + dp(8)
+            size: dp(92), dp(58)
+            radius: [dp(29)]
+
+<HeroTitle@Label>:
+    color: rgba("#FFF8EC")
+    font_size: "24sp"
+    bold: True
+    halign: "left"
+    valign: "middle"
+    text_size: self.width, None
+
+<HeroMeta@Label>:
+    color: rgba("#C9DFD8")
+    font_size: "14sp"
+    halign: "left"
+    valign: "middle"
+    text_size: self.width, None
+
+<HeroSummary@Label>:
+    color: rgba("#FFF8EC")
+    font_size: "16sp"
+    bold: True
+    halign: "left"
+    valign: "middle"
+    text_size: self.width, None
+
+<StatChip@Label>:
+    size_hint_y: None
+    height: dp(34)
+    color: rgba("#17212B")
+    font_size: "13sp"
+    bold: True
+    halign: "center"
+    valign: "middle"
+    text_size: self.width - dp(18), None
+    canvas.before:
+        Color:
+            rgba: rgba("#FFE3BA")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(17)]
+
+<HomeActionButton@Button>:
+    size_hint_y: None
+    height: dp(72)
+    background_normal: ""
+    background_down: ""
+    background_color: 0, 0, 0, 0
+    color: rgba("#17212B")
+    disabled_color: rgba("#91897D")
+    font_size: "15sp"
+    bold: True
+    halign: "center"
+    valign: "middle"
+    text_size: self.width - dp(18), None
+    canvas.before:
+        Color:
+            rgba: rgba("#FFFDF8") if not self.disabled else rgba("#E4DBCF")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(20)]
+
+<PrimaryButton@Button>:
+    size_hint_y: None
+    height: dp(54)
+    background_normal: ""
+    background_down: ""
+    background_color: 0, 0, 0, 0
+    color: rgba("#FFF8EC")
+    disabled_color: rgba("#BEB5AA")
+    font_size: "15sp"
+    bold: True
+    canvas.before:
+        Color:
+            rgba: rgba("#D76A3D") if not self.disabled else rgba("#D9CEC1")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(18)]
+
+<SecondaryButton@Button>:
+    size_hint_y: None
+    height: dp(54)
+    background_normal: ""
+    background_down: ""
+    background_color: 0, 0, 0, 0
+    color: rgba("#17212B")
+    font_size: "15sp"
+    bold: True
+    canvas.before:
+        Color:
+            rgba: rgba("#E6D8C6")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(18)]
+
+<AuthModeButton@Button>:
+    size_hint_y: None
+    height: dp(44)
+    background_normal: ""
+    background_down: ""
+    background_color: 0, 0, 0, 0
+    font_size: "14sp"
+    bold: True
+    halign: "center"
+    valign: "middle"
+    text_size: self.width - dp(16), None
+
+<AuthHeader@BoxLayout>:
+    orientation: "vertical"
+    padding: [dp(20), dp(16), dp(20), dp(16)]
+    spacing: dp(6)
+    size_hint_y: None
+    height: dp(124)
+    canvas.before:
+        Color:
+            rgba: rgba("#102D33")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(24)]
+        Color:
+            rgba: rgba("#F2B66D")
+        RoundedRectangle:
+            pos: self.x + self.width - dp(86), self.y + self.height - dp(42)
+            size: dp(62), dp(26)
+            radius: [dp(13)]
+
+<AuthPanel@BoxLayout>:
+    orientation: "vertical"
+    padding: [dp(14), dp(14), dp(14), dp(14)]
+    spacing: dp(10)
+    size_hint_y: None
+    height: self.minimum_height
+    canvas.before:
+        Color:
+            rgba: rgba("#FFFDF8")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(22)]
+
+<ServerTextButton@Button>:
+    size_hint_y: None
+    height: dp(38)
+    background_normal: ""
+    background_down: ""
+    background_color: 0, 0, 0, 0
+    color: rgba("#6A5E52")
+    font_size: "13sp"
+    bold: True
+    halign: "left"
+    valign: "middle"
+    text_size: self.width, None
+
+<ListCardButton@Button>:
+    markup: True
+    size_hint_y: None
+    height: dp(104)
+    background_normal: ""
+    background_down: ""
+    background_color: 0, 0, 0, 0
+    color: rgba("#17212B")
+    font_size: "14sp"
+    halign: "left"
+    valign: "middle"
+    text_size: self.width - dp(34), None
+    padding: [dp(16), dp(8)]
+    canvas.before:
+        Color:
+            rgba: rgba("#FFFDF8")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(20)]
+        Color:
+            rgba: rgba("#F0D8B8")
+        RoundedRectangle:
+            pos: self.x, self.y
+            size: dp(6), self.height
+            radius: [dp(3)]
+
+<PollOptionButton@Button>:
+    size_hint_y: None
+    height: dp(50)
+    background_normal: ""
+    background_down: ""
+    background_color: 0, 0, 0, 0
+    color: rgba("#17212B")
+    font_size: "14sp"
+    bold: True
+    halign: "left"
+    valign: "middle"
+    text_size: self.width - dp(34), None
+    padding: [dp(16), 0]
+    canvas.before:
+        Color:
+            rgba: rgba("#DCEFE9")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(18)]
+
+<SectionLabel@Label>:
+    size_hint_y: None
+    height: dp(46)
+    color: rgba("#17212B")
+    font_size: "16sp"
+    bold: True
+    halign: "left"
+    valign: "middle"
+    text_size: self.width, None
+
+<EmptyState@Label>:
+    size_hint_y: None
+    height: dp(96)
+    color: rgba("#6A5E52")
+    font_size: "14sp"
+    halign: "center"
+    valign: "middle"
+    text_size: self.width - dp(24), None
+    canvas.before:
+        Color:
+            rgba: rgba("#FFFDF8")
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(20)]
+
+<DormTextInput@TextInput>:
+    background_normal: ""
+    background_active: ""
+    background_color: rgba("#F8F1E8")
+    foreground_color: rgba("#17212B")
+    hint_text_color: rgba("#8A8177")
+    cursor_color: rgba("#D76A3D")
+    font_size: "15sp"
+    padding: [dp(14), dp(12), dp(14), dp(10)]
+    size_hint_y: None
+    height: dp(52)
+
+<MultilineInput@DormTextInput>:
+    multiline: True
+    height: dp(230)
+
+<AuthScreen>:
+    ScreenShell:
+        AuthHeader:
+            Label:
+                text: "DormFlow"
+                color: rgba("#FFF8EC")
+                font_size: "28sp"
+                bold: True
+                halign: "left"
+                valign: "middle"
+                text_size: self.width, None
+            Label:
+                text: "Вход в аккаунт" if app.auth_mode == "login" else "Создание аккаунта"
+                color: rgba("#C9DFD8")
+                font_size: "15sp"
+                bold: True
+                halign: "left"
+                valign: "middle"
+                text_size: self.width, None
+            Label:
+                text: "Данные появятся после авторизации на сервере"
+                color: rgba("#9DB9B3")
+                font_size: "12sp"
+                halign: "left"
+                valign: "middle"
+                text_size: self.width, None
+        AuthPanel:
+            GridLayout:
+                cols: 2
+                spacing: dp(6)
+                size_hint_y: None
+                height: dp(44)
+                canvas.before:
+                    Color:
+                        rgba: rgba("#EFE4D6")
+                    RoundedRectangle:
+                        pos: self.pos
+                        size: self.size
+                        radius: [dp(16)]
+                AuthModeButton:
+                    text: "Вход"
+                    color: rgba("#FFF8EC") if app.auth_mode == "login" else rgba("#17212B")
+                    on_release: app.set_auth_mode("login")
+                    canvas.before:
+                        Color:
+                            rgba: rgba("#D76A3D") if app.auth_mode == "login" else rgba("#00000000")
+                        RoundedRectangle:
+                            pos: self.pos
+                            size: self.size
+                            radius: [dp(15)]
+                AuthModeButton:
+                    text: "Регистрация"
+                    color: rgba("#FFF8EC") if app.auth_mode == "register" else rgba("#17212B")
+                    on_release: app.set_auth_mode("register")
+                    canvas.before:
+                        Color:
+                            rgba: rgba("#D76A3D") if app.auth_mode == "register" else rgba("#00000000")
+                        RoundedRectangle:
+                            pos: self.pos
+                            size: self.size
+                            radius: [dp(15)]
+            DormTextInput:
+                id: email_input
+                hint_text: "Email"
+                multiline: False
+            DormTextInput:
+                id: password_input
+                hint_text: "Пароль"
+                multiline: False
+                password: True
+            GridLayout:
+                id: registration_fields
+                cols: 1
+                spacing: dp(10)
+                size_hint_y: None
+                height: self.minimum_height if app.auth_mode == "register" else 0
+                opacity: 1 if app.auth_mode == "register" else 0
+                disabled: app.auth_mode != "register"
+                DormTextInput:
+                    id: name_input
+                    hint_text: "ФИО"
+                    multiline: False
+                GridLayout:
+                    cols: 3
+                    spacing: dp(8)
+                    size_hint_y: None
+                    height: dp(52)
+                    DormTextInput:
+                        id: building_input
+                        hint_text: "Корпус"
+                        multiline: False
+                    DormTextInput:
+                        id: floor_input
+                        hint_text: "Этаж"
+                        multiline: False
+                    DormTextInput:
+                        id: room_input
+                        hint_text: "Комната"
+                        multiline: False
+                DormTextInput:
+                    id: headman_code_input
+                    hint_text: "Код старосты, если есть"
+                    multiline: False
+                    password: True
+            ServerTextButton:
+                text: "Настройки сервера" if not app.server_settings_open else "Скрыть настройки сервера"
+                on_release: app.toggle_server_settings()
+            GridLayout:
+                id: server_settings_panel
+                cols: 1
+                spacing: dp(8)
+                size_hint_y: None
+                height: self.minimum_height if app.server_settings_open else 0
+                opacity: 1 if app.server_settings_open else 0
+                disabled: not app.server_settings_open
+                DormTextInput:
+                    id: api_url_input
+                    hint_text: "Адрес API сервера"
+                    multiline: False
+                    MetaText:
+                        size_hint_y: None
+                        height: dp(42)
+                        text: "Android emulator: 10.0.2.2:8765. Desktop/iOS simulator: 127.0.0.1:8765."
+            MetaText:
+                id: auth_status_label
+                size_hint_y: None
+                height: dp(44)
+                text: "Введите email и пароль для входа"
+        Widget:
+        PrimaryButton:
+            id: auth_submit_button
+            height: dp(58)
+            font_size: "16sp"
+            text: "Войти" if app.auth_mode == "login" else "Создать аккаунт"
+            on_release: app.submit_auth_form()
+
+<HomeScreen>:
+    ScreenShell:
+        PageSubtitle:
+            text: "общежитие без хаоса"
+        HeroCard:
+            HeroTitle:
+                id: greeting_label
+                text: "Пользователь"
+            HeroMeta:
+                id: meta_label
+                text: "Корпус / этаж"
+            HeroSummary:
+                id: summary_label
+                text: "Сводка"
+            BoxLayout:
+                size_hint_y: None
+                height: dp(36)
+                spacing: dp(8)
+                StatChip:
+                    id: role_label
+                    text: "Роль"
+                StatChip:
+                    id: room_chip
+                    text: "комната"
+        GridLayout:
+            cols: 2
+            spacing: dp(12)
+            size_hint_y: None
+            height: dp(240)
+            HomeActionButton:
+                text: "Дежурства"
+                on_release: app.nav("duties")
+            HomeActionButton:
+                text: "Заявки"
+                on_release: app.nav("issues")
+            HomeActionButton:
+                text: "Объявления"
+                on_release: app.nav("announcements")
+            HomeActionButton:
+                text: "Голосования"
+                on_release: app.nav("polls")
+            HomeActionButton:
+                text: "Профиль"
+                on_release: app.nav("profile")
+            HomeActionButton:
+                id: headman_button
+                text: "Панель старосты"
+                on_release: app.go_headman_home()
+        Widget:
+        SecondaryButton:
+            id: logout_button
+            text: "Выйти из аккаунта"
+            on_release: app.logout()
+
+<DutiesScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Дежурства"
+        PageSubtitle:
+            text: "актуальный график и чек-листы"
+        ScrollView:
+            do_scroll_x: False
+            bar_width: dp(4)
+            GridLayout:
+                id: duties_container
+                cols: 1
+                spacing: dp(10)
+                size_hint_y: None
+                height: self.minimum_height
+        SecondaryButton:
+            text: "Назад"
+            on_release: app.nav("home")
+
+<DutyDetailScreen>:
+    ScreenShell:
+        PageTitle:
+            id: duty_title
+            text: "Дежурство"
+        CardLabel:
+            id: duty_time
+            height: dp(62)
+            text: "-"
+        CardLabel:
+            id: duty_scope
+            height: dp(62)
+            text: "-"
+        StatChip:
+            id: duty_status
+            text: "-"
+        CardLabel:
+            id: duty_checklist
+            height: dp(250)
+            valign: "top"
+            text: "-"
+        Widget:
+        PrimaryButton:
+            id: duty_done_button
+            text: "Отметить выполнение"
+            on_release: app.complete_selected_duty()
+        SecondaryButton:
+            text: "К списку"
+            on_release: app.nav("duties")
+
+<IssuesScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Заявки"
+        PageSubtitle:
+            text: "проблемы этажа и статусы работ"
+        ScrollView:
+            do_scroll_x: False
+            bar_width: dp(4)
+            GridLayout:
+                id: issues_container
+                cols: 1
+                spacing: dp(10)
+                size_hint_y: None
+                height: self.minimum_height
+        GridLayout:
+            cols: 2
+            spacing: dp(10)
+            size_hint_y: None
+            height: dp(54)
+            PrimaryButton:
+                text: "Создать"
+                on_release: app.nav("issue_create")
+            SecondaryButton:
+                text: "Назад"
+                on_release: app.nav("home")
+
+<IssueCreateScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Новая заявка"
+        PageSubtitle:
+            text: "коротко опишите проблему и категорию"
+        DormTextInput:
+            id: issue_title_input
+            hint_text: "Название проблемы"
+            multiline: False
+        DormTextInput:
+            id: issue_category_input
+            hint_text: "Категория: сантехника, электрика..."
+            multiline: False
+        MultilineInput:
+            id: issue_description_input
+            hint_text: "Описание проблемы"
+        Widget:
+        GridLayout:
+            cols: 2
+            spacing: dp(10)
+            size_hint_y: None
+            height: dp(54)
+            PrimaryButton:
+                text: "Отправить"
+                on_release: app.create_issue_from_form()
+            SecondaryButton:
+                text: "Отмена"
+                on_release: app.nav("issues")
+
+<IssueDetailScreen>:
+    ScreenShell:
+        PageTitle:
+            id: issue_title
+            text: "Детали заявки"
+        StatChip:
+            id: issue_status
+            text: "-"
+        CardLabel:
+            id: issue_meta
+            height: dp(82)
+            text: "-"
+        CardLabel:
+            id: issue_description
+            height: dp(310)
+            valign: "top"
+            text: "-"
+        Widget:
+        PrimaryButton:
+            id: issue_status_button
+            text: "Обновить статус"
+            on_release: app.advance_issue_status()
+        SecondaryButton:
+            text: "К заявкам"
+            on_release: app.nav("issues")
+
+<AnnouncementsScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Объявления"
+        PageSubtitle:
+            text: "важное для этажа"
+        ScrollView:
+            do_scroll_x: False
+            bar_width: dp(4)
+            GridLayout:
+                id: announcements_container
+                cols: 1
+                spacing: dp(10)
+                size_hint_y: None
+                height: self.minimum_height
+        SecondaryButton:
+            text: "Назад"
+            on_release: app.nav("home")
+
+<PollsScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Голосования"
+        PageSubtitle:
+            text: "решения, которые принимаются вместе"
+        ScrollView:
+            do_scroll_x: False
+            bar_width: dp(4)
+            GridLayout:
+                id: polls_container
+                cols: 1
+                spacing: dp(8)
+                size_hint_y: None
+                height: self.minimum_height
+        SecondaryButton:
+            text: "Назад"
+            on_release: app.nav("home")
+
+<ProfileScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Профиль"
+        PageSubtitle:
+            text: "данные текущего жильца"
+        CardLabel:
+            id: profile_name
+            height: dp(86)
+            text: "-"
+        CardLabel:
+            id: profile_place
+            height: dp(86)
+            text: "-"
+        StatChip:
+            id: profile_role
+            text: "-"
+        Widget:
+        SecondaryButton:
+            text: "Назад"
+            on_release: app.nav("home")
+
+<HeadmanHomeScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Панель старосты"
+        PageSubtitle:
+            text: "управление этажом"
+        GridLayout:
+            cols: 1
+            spacing: dp(12)
+            size_hint_y: None
+            height: dp(324)
+            HomeActionButton:
+                text: "График дежурств"
+                on_release: app.nav("headman_duties")
+            HomeActionButton:
+                text: "Модерация заявок"
+                on_release: app.nav("headman_issues")
+            HomeActionButton:
+                text: "Создать объявление"
+                on_release: app.nav("headman_announcement")
+            HomeActionButton:
+                text: "Создать голосование"
+                on_release: app.nav("headman_poll")
+        Widget:
+        SecondaryButton:
+            text: "Назад"
+            on_release: app.nav("home")
+
+<HeadmanDutiesScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "График этажа"
+        PageSubtitle:
+            text: "создание реального дежурства на сервере"
+        DormTextInput:
+            id: duty_title_input
+            hint_text: "Название: дежурство по кухне"
+            multiline: False
+        DormTextInput:
+            id: duty_date_input
+            hint_text: "Дата и время: 27 апреля, 19:00-21:00"
+            multiline: False
+        DormTextInput:
+            id: duty_scope_input
+            hint_text: "Зона: этаж 4 / кухня / санузел"
+            multiline: False
+        MultilineInput:
+            id: duty_checklist_input
+            hint_text: "Чек-лист, каждый пункт с новой строки"
+        Widget:
+        PrimaryButton:
+            text: "Опубликовать дежурство"
+            on_release: app.create_duty_from_form()
+        SecondaryButton:
+            text: "Назад"
+            on_release: app.nav("headman_home")
+
+<HeadmanIssuesScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Модерация"
+        PageSubtitle:
+            text: "все заявки этажа"
+        ScrollView:
+            do_scroll_x: False
+            bar_width: dp(4)
+            GridLayout:
+                id: headman_issues_container
+                cols: 1
+                spacing: dp(10)
+                size_hint_y: None
+                height: self.minimum_height
+        SecondaryButton:
+            text: "Назад"
+            on_release: app.nav("headman_home")
+
+<HeadmanAnnouncementScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Новое объявление"
+        PageSubtitle:
+            text: "коротко, заметно, по делу"
+        DormTextInput:
+            id: ann_title_input
+            hint_text: "Заголовок"
+            multiline: False
+        MultilineInput:
+            id: ann_body_input
+            hint_text: "Текст объявления"
+        Widget:
+        GridLayout:
+            cols: 2
+            spacing: dp(10)
+            size_hint_y: None
+            height: dp(54)
+            PrimaryButton:
+                text: "Опубликовать"
+                on_release: app.create_announcement_from_form()
+            SecondaryButton:
+                text: "Назад"
+                on_release: app.nav("headman_home")
+
+<HeadmanPollScreen>:
+    ScreenShell:
+        PageTitle:
+            text: "Новое голосование"
+        PageSubtitle:
+            text: "минимум два варианта, каждый с новой строки"
+        DormTextInput:
+            id: poll_question_input
+            hint_text: "Вопрос"
+            multiline: False
+        MultilineInput:
+            id: poll_options_input
+            hint_text: "Варианты ответа"
+        Widget:
+        GridLayout:
+            cols: 2
+            spacing: dp(10)
+            size_hint_y: None
+            height: dp(54)
+            PrimaryButton:
+                text: "Создать"
+                on_release: app.create_poll_from_form()
+            SecondaryButton:
+                text: "Назад"
+                on_release: app.nav("headman_home")
+
+RootManager:
+    transition: NoTransition()
+    AuthScreen:
+        name: "auth"
+    HomeScreen:
+        name: "home"
+    DutiesScreen:
+        name: "duties"
+    DutyDetailScreen:
+        name: "duty_detail"
+    IssuesScreen:
+        name: "issues"
+    IssueCreateScreen:
+        name: "issue_create"
+    IssueDetailScreen:
+        name: "issue_detail"
+    AnnouncementsScreen:
+        name: "announcements"
+    PollsScreen:
+        name: "polls"
+    ProfileScreen:
+        name: "profile"
+    HeadmanHomeScreen:
+        name: "headman_home"
+    HeadmanDutiesScreen:
+        name: "headman_duties"
+    HeadmanIssuesScreen:
+        name: "headman_issues"
+    HeadmanAnnouncementScreen:
+        name: "headman_announcement"
+    HeadmanPollScreen:
+        name: "headman_poll"

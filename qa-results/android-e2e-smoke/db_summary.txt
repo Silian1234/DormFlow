@@ -1,0 +1,2 @@
+﻿users=1 sessions=1
+{'email': 'user1777216976519', 'name': 'E2EUser', 'room': '418', 'role': 'resident'}
