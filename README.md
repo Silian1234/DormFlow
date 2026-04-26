@@ -1,5 +1,7 @@
 # DormFlow: Android + iOS (Python/Kivy)
 
+Готовые сборки в разделе Releases
+
 Полноценный клиент-серверный проект DormFlow:
 
 - **Backend**: `FastAPI + SQLite`
